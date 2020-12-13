@@ -264,14 +264,15 @@ public string Name {
 }
 ```
 
-**Calculated properties**
+**Calculated properties** 
+= properties build on other properties
+- no field required
+- reusability
 ```csharp
-// properties build on other properties
-// no field required
-// reusability
+
 public int Description{ 
 	get {
-		return $`{this.Name} is being brewed in ${this.Brewery}';
+		return $"{this.Name} is being brewed in ${this.Brewery}";
 	}
 }
 ```
@@ -288,7 +289,7 @@ public int Description{
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTg2Njc1OCwtNjkzMjEyODE5LC0xMj
-gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NjU4MDA0NDYsLTY5MzIxMjgxOSwtMT
+I4Mjc1MTY4LC05OTY5MjE2MDMsMjUwOTQ4NDA3LC0yMDA1ODQ0
+MTk2XX0=
 -->
