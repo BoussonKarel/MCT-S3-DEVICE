@@ -205,7 +205,7 @@ Enkel binnen die klasse kan je er iets mee doen.
 // field
 private string _name;
 
-// property
+// property with visible field
 public string Name {
 	// I want to GET the value of Name
 	get {
@@ -216,6 +216,9 @@ public string Name {
 		_name = value;
 	};
 }
+
+// property with auto-implemented field (hidden field)
+public string Alcohol { get; set; }
 ```
 
 ### Fields vs properties
@@ -230,6 +233,6 @@ public string Name {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NjY2Mjk3LC0xMjgyNzUxNjgsLTk5Nj
-kyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQxOTZdfQ==
+eyJoaXN0b3J5IjpbLTY5MzIxMjgxOSwtMTI4Mjc1MTY4LC05OT
+Y5MjE2MDMsMjUwOTQ4NDA3LC0yMDA1ODQ0MTk2XX0=
 -->
