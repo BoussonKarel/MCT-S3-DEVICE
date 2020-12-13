@@ -196,8 +196,12 @@ public class Person {
 Person p1 = new Person("Karel");
 ```
 
-
+## Properties
+### Fields vs properties
+- Fields store the actual data
+- Properties are used to access those fields
+- Auto-implemented properties have a hidden field
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzgyMjIyNywyNTA5NDg0MDcsLTIwMD
+eyJoaXN0b3J5IjpbLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMD
 U4NDQxOTZdfQ==
 -->
