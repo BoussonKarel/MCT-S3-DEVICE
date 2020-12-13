@@ -299,12 +299,7 @@ Set default values
 public class Beer() {
 	// geen parameters
 	public Beer() {
-		this.Color = "Unknown";
-	}
-	
-	// andere constructor oproepen
-	public Beer() : this("no name") {
-		// this.Name = "no name";
+		this.Name = "no name";
 	}
 	
 	// 1 parameter
@@ -327,8 +322,23 @@ public class Beer() {
 	
 }
 ```
+
+Constructor overloading
+```csharp
+// andere constructor oproepen
+public Beer() : this("no name") {
+	// this.Name = "no name";
+}
+
+public Beer(string name) : this(name, 6) {
+}
+
+public Beer() : this("no name") {
+	// this.Name = "no name";
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwNTA5OTkxLC02OTMyMTI4MTksLTEyOD
+eyJoaXN0b3J5IjpbNjYyMzIwMjU4LC02OTMyMTI4MTksLTEyOD
 I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
 Nl19
 -->
