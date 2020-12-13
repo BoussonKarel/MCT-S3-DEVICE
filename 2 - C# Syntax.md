@@ -254,7 +254,12 @@ Control the output using GET
 ```csharp
 // property which you can't SET outside of this class
 public string Name { 
-	get { return _name; }
+	get {
+		if (string.IsNullorWhiteSpace(_name))
+			return "Unknown";
+		else
+			return _name;
+	}
 	set { _name= value }
 }
 ```
@@ -281,7 +286,7 @@ public int Id {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDE1MzY0NywtNjkzMjEyODE5LC0xMj
+eyJoaXN0b3J5IjpbMTMzMDcwNzc2OCwtNjkzMjEyODE5LC0xMj
 gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
 OTZdfQ==
 -->
