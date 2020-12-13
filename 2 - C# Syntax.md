@@ -278,8 +278,17 @@ public int Description{
 ```
 
 ### Default values for properties
+## Constructors
+Set default values
+```csharp
+public class Person() {
+	public Person (string name) {
+		this.Color = "Unknown";
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MTM3MTc2LC02OTMyMTI4MTksLTEyOD
-I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
-Nl19
+eyJoaXN0b3J5IjpbLTMwMzg3MDE2MiwtNjkzMjEyODE5LC0xMj
+gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
+OTZdfQ==
 -->
