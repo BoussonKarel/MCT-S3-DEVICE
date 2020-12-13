@@ -169,9 +169,17 @@ while (endOfClass == false) {
 **do while**
 ```csharp
 do {
-	// might never be executed
-} while (endOfClass == false)
+	// executed at least once!
+} while (endOfClass == false);
+```
+
+## Classes
+```csharp
+public class Person {
+	// property
+	
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzUxMDAyMywtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbLTkyNTc5NzE0OCwtMjAwNTg0NDE5Nl19
 -->
