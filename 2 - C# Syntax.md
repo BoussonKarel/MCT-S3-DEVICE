@@ -190,6 +190,11 @@ public class Person {
 	}
 }
 ```
+
+```csharp
+// based on the constructor
+Person p1 = new Person("Karel");
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDIxMzE0OCwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbMjUwOTQ4NDA3LC0yMDA1ODQ0MTk2XX0=
 -->
