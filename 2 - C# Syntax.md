@@ -105,8 +105,8 @@ List<string> teacherList = new List<string> { "SWC", "FWA" };
 ### Collection type = fixed
 ```csharp
 Person[] teacherArr = new Person[10];
-
+List<Person> teacherList = new List<Person>();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDU1MDM1MCwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbMTE4MzQ5OTY4OSwtMjAwNTg0NDE5Nl19
 -->
