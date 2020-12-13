@@ -111,7 +111,7 @@ List<Person> teacherList = new List<Person>();
 ```
 
 ## Selections
-**if / else if / else -- switch**
+**if / else if / else**
 ```csharp
 if (findTheoryTeacher == true) {
 	email1 = "frederik.waeyaert@howest.be";
@@ -121,11 +121,22 @@ else if (findLabTeacher == true) {
 	email1 = "stijn.walcarius@howest.be";
 	email2 = "frederik.waeyaert@howest.be";
 }
-if (findTheoryTeacher == true) {
-	email1 = "frederik.waeyaert@howest.be";
-	email2 = null;
+else {
+	email1 = email2 = null;
+}
+```
+
+**switch**
+```csharp
+switch (teacher) {
+	case "SWC":
+		email = "stijn.walcarius@howest.be";
+		break;
+	case "FWA":
+	
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNTc5MSwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbLTEwMzk2Mzg4OTEsLTIwMDU4NDQxOTZdfQ
+==
 -->
