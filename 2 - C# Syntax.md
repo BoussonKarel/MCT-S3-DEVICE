@@ -219,6 +219,12 @@ public string Name {
 
 // property with auto-implemented field (hidden field)
 public string Alcohol { get; set; }
+
+public string Id { 
+	get { return _id; }
+	// Je kan hem niet instellen vanbuiten de klasse
+	private set { _id = value }
+}
 ```
 
 ### Fields vs properties
@@ -233,6 +239,7 @@ public string Alcohol { get; set; }
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzIxMjgxOSwtMTI4Mjc1MTY4LC05OT
-Y5MjE2MDMsMjUwOTQ4NDA3LC0yMDA1ODQ0MTk2XX0=
+eyJoaXN0b3J5IjpbMTg2MjA3NTA4MywtNjkzMjEyODE5LC0xMj
+gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
+OTZdfQ==
 -->
