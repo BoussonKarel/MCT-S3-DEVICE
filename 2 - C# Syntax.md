@@ -207,9 +207,11 @@ private string _name;
 
 // property
 public string Name {
+	// I want to GET the value of Name
 	get {
 		return _name;
 	};
+	// I want to SET the value of Name
 	set {
 		_name = value;
 	};
@@ -228,6 +230,6 @@ public string Name {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5ODA5MDQ5LC0xMjgyNzUxNjgsLTk5Nj
+eyJoaXN0b3J5IjpbMzk0NjY2Mjk3LC0xMjgyNzUxNjgsLTk5Nj
 kyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQxOTZdfQ==
 -->
