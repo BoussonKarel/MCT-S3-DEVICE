@@ -83,10 +83,9 @@ Dictionary<string, int> studentScores = new Dictionary<string, int>();
 studentScores.Add("Jean Jacques", 13);
 studentScores.Add("Jean Jacques", 4);
 
-// get the score of Jean
-Jacques
-int score = studentScores [["Jean Jacques"
+// get the score of Jean Jacques
+int score = studentScores["Jean Jacques"];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzYxNzM5OSwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbMjE0MTU2NzUxMiwtMjAwNTg0NDE5Nl19
 -->
