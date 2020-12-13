@@ -177,9 +177,19 @@ do {
 ```csharp
 public class Person {
 	// property
+	public string Name { get; set; }
 	
+	// constructor
+	public Person (string name) {
+		this.Name = name;
+	}
+	
+	// method
+	public void Subscribe() {
+		// do something
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTc5NzE0OCwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbMTM3MDIxMzE0OCwtMjAwNTg0NDE5Nl19
 -->
