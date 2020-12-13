@@ -23,19 +23,18 @@ MainPage = new NavigationPage(new MainPage());
 
 ## Navigate back
 ### Modeless page
-- Disable physical back buttons' default behavior
+- Default physical back buttons' behavior
 - Own buttons:
 ```csharp
 Navigation.PopAsync();
 ```
 
 ### Modeless page
-- Default behavior (back button, navigationbar...)
-- Your own buttons
+- Disable physical back buttons' default behavior
+- Own buttons:
 ```csharp
-Navigation.PopAsync();
+if (...) { Navigation.PopModalAsync() };
 ```
-
 
 ## Navigation stack
 
@@ -48,5 +47,5 @@ Navigation.PopAsync();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzE1ODQ1NywtODMyNjgwOTY4XX0=
+eyJoaXN0b3J5IjpbLTEwMTkzNzE5NzQsLTgzMjY4MDk2OF19
 -->
