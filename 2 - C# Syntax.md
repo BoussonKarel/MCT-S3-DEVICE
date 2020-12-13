@@ -71,9 +71,22 @@ numbers[0] = 13;
 Debug.WriteLine(("The first number is: " + numbers[0]);
 
 // intialize and fill another array with 4 numbers:
-int [] startPositions = { 4, 1, 9, 3
+int [] startPositions = { 4, 1, 9, 3 };
 ```
 
+### Dictionary<TKey, TValue>
+```csharp
+// declare dictionary with key type & value type
+Dictionary<string, int> studentScores = new Dictionary<string, int>();
+
+// add two elements (key value pairs)
+studentScores.Add("Jean Jacques", 13);
+studentScores.Add("Jean Jacques", 4);
+
+// get the score of Jean
+Jacques
+int score = studentScores [["Jean Jacques"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NTE0NjgyLC0yMDA1ODQ0MTk2XX0=
+eyJoaXN0b3J5IjpbMTA1NzYxNzM5OSwtMjAwNTg0NDE5Nl19
 -->
