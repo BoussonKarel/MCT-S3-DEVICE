@@ -18,15 +18,23 @@ Navigation.PushModalAsync(new Foopage());
 **Opgelet: App.xaml.cs aanpassen**
 ```csharp
 // MainPage = new MainPage();
-
 MainPage = new NavigationPage(new MainPage());
 ```
 
+## Navigate back
+### Modeless page
+- Disable physical back buttons' default behavior
+- Own buttons:
 ```csharp
-
+Navigation.PopAsync();
 ```
 
-## Navigate back
+### Modeless page
+- Default behavior (back button, navigationbar...)
+- Your own buttons
+```csharp
+Navigation.PopAsync();
+```
 
 
 ## Navigation stack
@@ -40,5 +48,5 @@ MainPage = new NavigationPage(new MainPage());
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMTA0NzYwLC04MzI2ODA5NjhdfQ==
+eyJoaXN0b3J5IjpbMTMyMzE1ODQ1NywtODMyNjgwOTY4XX0=
 -->
