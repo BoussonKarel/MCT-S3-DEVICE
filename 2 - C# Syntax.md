@@ -204,7 +204,6 @@ Enkel binnen die klasse kan je er iets mee doen.
 // field
 private string _name;
 private int _id;
-//private double _alcohol;
 ```
 
 **Properties**
@@ -229,32 +228,34 @@ public double Alcohol { get; set; }
 Properties to manage field access
 ```csharp
 // property which you can't SET outside of this class
-public double Alcohol { 
-	get { return _alcohol; }
-	set {
-		_alcohol = value;
-		if (alcohol < 0)
-			_alcohol =
-	}
+private int _id;
+public int Id { 
+	get { return _id; }
+	private set { _id = value }
 }
 ```
 
 Check the input using SET
 ```csharp
-// property which you can't SET outside of this class
-public int Id { 
-	get { return _id; }
-	private set { _id = value }
+public double Alcohol { 
+	get { return _alcohol; }
+	set {
+		if (value < 0)
+			_alcohol = 0;
+		else if (value > 100)
+			_alcohol = 100;
+		else
+			_alcohol = value;
+	}
 }
 ```
 
 Control the output using GET
 ```csharp
 // property which you can't SET outside of this class
-private int _id;
-public int Id { 
-	get { return _id; }
-	private set { _id = value }
+public string Name { 
+	get { return _name; }
+	set { _name= value }
 }
 ```
 
@@ -280,7 +281,7 @@ public int Id {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzM5NjE3NiwtNjkzMjEyODE5LC0xMj
+eyJoaXN0b3J5IjpbLTcwMDE1MzY0NywtNjkzMjEyODE5LC0xMj
 gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
 OTZdfQ==
 -->
