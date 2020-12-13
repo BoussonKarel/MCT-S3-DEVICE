@@ -278,6 +278,16 @@ public int Description{
 ```
 
 ### Default values for properties
+```csharp
+public string Brewery { get; set; } = "Belgian Brewery";
+```
+
+```csharp
+private Guid _id = Guid.NewGuid();
+public Guid Id {
+	get { 
+}
+```
 ## Constructors
 Set default values
 ```csharp
@@ -288,7 +298,7 @@ public class Person() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzg3MDE2MiwtNjkzMjEyODE5LC0xMj
+eyJoaXN0b3J5IjpbLTYxNjczMDMyMSwtNjkzMjEyODE5LC0xMj
 gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
 OTZdfQ==
 -->
