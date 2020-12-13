@@ -297,21 +297,36 @@ public Guid Id {
 Set default values
 ```csharp
 public class Beer() {
+	// geen parameters
 	public Beer() {
 		this.Color = "Unknown";
 	}
 	
+	// 1 parameter
 	public Beer(string name) {
 		_name = name;
 	}
 
+	// zelfde aantal, ander type
+	public Beer(double alcohol) {
+		Alcohol = alcohol;
+	}
+	
+	// 2 parameters
 	public Beer(string name, string color) {
 		_name = name;
+		_color = color;
+	}
+	
+	// zelfde aantal, ander type
+	public Beer(string name, double alcohol) {
+		_name = name;
+		Alcohol = alcohol;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxOTE0NjM5LC02OTMyMTI4MTksLTEyOD
+eyJoaXN0b3J5IjpbMjkwODc4MjE2LC02OTMyMTI4MTksLTEyOD
 I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
 Nl19
 -->
