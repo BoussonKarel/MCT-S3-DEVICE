@@ -197,18 +197,27 @@ Person p1 = new Person("Karel");
 ```
 
 ## Properties
+### Fields
+private of protected
+Enkel binnen die klasse kan je er iets mee doen.
+
+```csharp
+private string _name;
+
+```
+
 ### Fields vs properties
 - Fields store the actual data
 - Properties are used to access those fields
 - Auto-implemented properties have a hidden field
 
 ### Property usage
-- Use proeprties to control field access
+- Use propertjes to control field access
 - Enhance input/output control using get & set
 - Calculated properties build on other properties
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI3NTE2OCwtOTk2OTIxNjAzLDI1MD
-k0ODQwNywtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbLTE4MzUxMTg0MDksLTEyODI3NTE2OCwtOT
+k2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5Nl19
 -->
