@@ -269,7 +269,6 @@ public string Name {
 - no field required
 - reusability
 ```csharp
-
 public int Description{ 
 	get {
 		return $"{this.Name} is being brewed in ${this.Brewery}";
@@ -289,7 +288,7 @@ public int Description{
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU4MDA0NDYsLTY5MzIxMjgxOSwtMT
-I4Mjc1MTY4LC05OTY5MjE2MDMsMjUwOTQ4NDA3LC0yMDA1ODQ0
-MTk2XX0=
+eyJoaXN0b3J5IjpbLTg4NzAyMzM3NiwtNjkzMjEyODE5LC0xMj
+gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
+OTZdfQ==
 -->
