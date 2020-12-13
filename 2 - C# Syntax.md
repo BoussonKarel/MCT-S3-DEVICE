@@ -55,6 +55,12 @@ if (oGodWhy) runForIt();
 | **Andere types** | | |
 | char | 1 teken | | |
 | bool | booleaanse waarde | *0 (waar)* | *1 (onwaar)* |
+
+## Collections
+**Array, Dictionary\<TKey, TValue>, List\<T>**
+
+###
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU4NDQxOTZdfQ==
+eyJoaXN0b3J5IjpbODc4NjkxMTY1LC0yMDA1ODQ0MTk2XX0=
 -->
