@@ -302,14 +302,14 @@ public class Beer() {
 		this.Color = "Unknown";
 	}
 	
+	// andere constructor oproepen
+	public Beer() : this("no name") {
+		// this.Name = "no name";
+	}
+	
 	// 1 parameter
 	public Beer(string name) {
 		_name = name;
-	}
-
-	// zelfde aantal, ander type
-	public Beer(double alcohol) {
-		Alcohol = alcohol;
 	}
 	
 	// 2 parameters
@@ -323,10 +323,12 @@ public class Beer() {
 		_name = name;
 		Alcohol = alcohol;
 	}
+
+	
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwODc4MjE2LC02OTMyMTI4MTksLTEyOD
+eyJoaXN0b3J5IjpbNzIwNTA5OTkxLC02OTMyMTI4MTksLTEyOD
 I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
 Nl19
 -->
