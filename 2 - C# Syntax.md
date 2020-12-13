@@ -293,19 +293,25 @@ public Guid Id {
 	};
 }
 ```
-
-``
 ## Constructors
 Set default values
 ```csharp
-public class Person() {
-	public Person (string name) {
+public class Beer() {
+	public Beer() {
 		this.Color = "Unknown";
+	}
+	
+	public Beer(string name) {
+		_name = name;
+	}
+
+	public Beer(string name, string color) {
+		_name = name;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI2NDczMTMsLTY5MzIxMjgxOSwtMT
-I4Mjc1MTY4LC05OTY5MjE2MDMsMjUwOTQ4NDA3LC0yMDA1ODQ0
-MTk2XX0=
+eyJoaXN0b3J5IjpbOTcxOTE0NjM5LC02OTMyMTI4MTksLTEyOD
+I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
+Nl19
 -->
