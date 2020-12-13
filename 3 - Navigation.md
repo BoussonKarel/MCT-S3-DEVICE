@@ -11,8 +11,19 @@
 ## Navigate forward
 ```csharp
 Navigation.PushAsync(new Foopage());
-// Wanneer
+// Wanneer je naar een modal page wil sturen, waar effectief input verwacht wordt
 Navigation.PushModalAsync(new Foopage());
+```
+
+**Opgelet: App.xaml.cs aanpassen**
+```csharp
+// MainPage = new MainPage();
+
+MainPage = new NavigationPage(new MainPage());
+```
+
+```csharp
+
 ```
 
 ## Navigate back
@@ -29,5 +40,5 @@ Navigation.PushModalAsync(new Foopage());
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk4Mzk5LC04MzI2ODA5NjhdfQ==
+eyJoaXN0b3J5IjpbOTAyMTA0NzYwLC04MzI2ODA5NjhdfQ==
 -->
