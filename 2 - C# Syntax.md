@@ -117,12 +117,15 @@ if (findTheoryTeacher == true) {
 	email1 = "frederik.waeyaert@howest.be";
 	email2 = null;
 }
+else if (findLabTeacher == true) {
+	email1 = "stijn.walcarius@howest.be";
+	email2 = "frederik.waeyaert@howest.be";
+}
 if (findTheoryTeacher == true) {
 	email1 = "frederik.waeyaert@howest.be";
 	email2 = null;
 }
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTA0MTU4MCwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbOTgxNTc5MSwtMjAwNTg0NDE5Nl19
 -->
