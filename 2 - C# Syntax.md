@@ -201,9 +201,14 @@ Person p1 = new Person("Karel");
 private of protected
 Enkel binnen die klasse kan je er iets mee doen.
 
+Fields
 ```csharp
 // field
 private string _name;
+private int _id;
+```
+
+
 
 // property with visible field
 public string Name {
@@ -220,11 +225,10 @@ public string Name {
 // property with auto-implemented field (hidden field)
 public string Alcohol { get; set; }
 
+// property which you can't SET outside of this class
 private int _id;
-
 public int Id { 
 	get { return _id; }
-	// Je kan hem niet instellen vanbuiten de klasse
 	private set { _id = value }
 }
 ```
@@ -241,7 +245,7 @@ public int Id {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzI0NTI2OCwtNjkzMjEyODE5LC0xMj
+eyJoaXN0b3J5IjpbLTg0MjM0MjE4OSwtNjkzMjEyODE5LC0xMj
 gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
 OTZdfQ==
 -->
