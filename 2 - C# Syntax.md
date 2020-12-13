@@ -202,8 +202,18 @@ private of protected
 Enkel binnen die klasse kan je er iets mee doen.
 
 ```csharp
+// field
 private string _name;
 
+// property
+public string Name {
+	get {
+		return _name;
+	};
+	set {
+		_name = value;
+	};
+}
 ```
 
 ### Fields vs properties
@@ -218,6 +228,6 @@ private string _name;
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUxMTg0MDksLTEyODI3NTE2OCwtOT
-k2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbOTM5ODA5MDQ5LC0xMjgyNzUxNjgsLTk5Nj
+kyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQxOTZdfQ==
 -->
