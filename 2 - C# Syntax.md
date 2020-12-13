@@ -264,13 +264,15 @@ public string Name {
 }
 ```
 
-Calculated properties
+**Calculated properties**
 ```csharp
-// property which you can't SET outside of this class
-private int _id;
-public int Id { 
-	get { return _id; }
-	private set { _id = value }
+// properties build on other properties
+// no field required
+// reusability
+public int Description{ 
+	get {
+		return $`{this.Name} is being brewed in ${this.Brewery}';
+	}
 }
 ```
 
@@ -286,7 +288,7 @@ public int Id {
   - No field required
   - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDcwNzc2OCwtNjkzMjEyODE5LC0xMj
+eyJoaXN0b3J5IjpbMTI2OTg2Njc1OCwtNjkzMjEyODE5LC0xMj
 gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
 OTZdfQ==
 -->
