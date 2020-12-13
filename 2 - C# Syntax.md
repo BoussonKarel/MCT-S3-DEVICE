@@ -95,9 +95,18 @@ emailList.Add("karel.bousson@student.howest.be");
 emailList.Add("bousson.karel@gmail.com");
 
 // get elements out (two ways):
-string frist = emailList.ElementAt(0
+string frist = emailList.ElementAt(0);
+string second = emailList[0];
+
+// declare + fill list
+List<string> teacherList = new List<string> { "SWC", "FWA" };
+```
+
+### Collection type = fixed
+```csharp
+Person[] teacherArr = new Person[10];
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU1NzI5NzUsLTIwMDU4NDQxOTZdfQ
-==
+eyJoaXN0b3J5IjpbLTUxNDU1MDM1MCwtMjAwNTg0NDE5Nl19
 -->
