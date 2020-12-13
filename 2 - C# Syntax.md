@@ -140,7 +140,31 @@ switch (teacher) {
 		break;
 }
 ```
+
+## Loops
+**for**
+```csharp
+//loop 100 times
+for (int i = 0; i < 100; i++)
+{
+	//do something
+}
+```
+
+**foreach**
+```csharp
+
+```
+
+**while**
+```csharp
+
+```
+
+**do while**
+```csharp
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIxMTk2NzQsLTIwMDU4NDQxOTZdfQ
-==
+eyJoaXN0b3J5IjpbNzQ3NTEyMjcxLC0yMDA1ODQ0MTk2XX0=
 -->
