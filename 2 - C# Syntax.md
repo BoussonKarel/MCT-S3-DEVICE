@@ -133,10 +133,14 @@ switch (teacher) {
 		email = "stijn.walcarius@howest.be";
 		break;
 	case "FWA":
-	
+		email = "frederik.waeyaert@howest.be";
+		break;
+	default:
+		email = "info@howest.be";
+		break;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk2Mzg4OTEsLTIwMDU4NDQxOTZdfQ
+eyJoaXN0b3J5IjpbLTE1MTIxMTk2NzQsLTIwMDU4NDQxOTZdfQ
 ==
 -->
