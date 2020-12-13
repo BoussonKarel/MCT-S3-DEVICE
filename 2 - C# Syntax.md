@@ -59,8 +59,21 @@ if (oGodWhy) runForIt();
 ## Collections
 **Array, Dictionary\<TKey, TValue>, List\<T>**
 
-###
+### Arrays
+```csharp
+// initialize int array with 10 positions:
+int[] numbers = new int[10];
+
+// save number 13 in the first position
+numbers[0] = 13;
+
+// print the value of the first number in the array:
+Debug.WriteLine(("The first number is: " + numbers[0]);
+
+// intialize and fill another array with 4 numbers:
+int [] startPositions = { 4, 1, 9, 3
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NjkxMTY1LC0yMDA1ODQ0MTk2XX0=
+eyJoaXN0b3J5IjpbNDg0NTE0NjgyLC0yMDA1ODQ0MTk2XX0=
 -->
