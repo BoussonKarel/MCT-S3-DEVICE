@@ -74,7 +74,7 @@ Debug.WriteLine(("The first number is: " + numbers[0]);
 int [] startPositions = { 4, 1, 9, 3 };
 ```
 
-### Dictionary<TKey, TValue>
+### Dictionary\<TKey, TValue>
 ```csharp
 // declare dictionary with key type & value type
 Dictionary<string, int> studentScores = new Dictionary<string, int>();
@@ -86,6 +86,18 @@ studentScores.Add("Jean Jacques", 4);
 // get the score of Jean Jacques
 int score = studentScores["Jean Jacques"];
 ```
+
+### List\<T>
+```csharp
+// declare list, fill one by one:
+List<string> emailList = new List<string>();
+emailList.Add("karel.bousson@student.howest.be");
+emailList.Add("bousson.karel@gmail.com");
+
+// get elements out (two ways):
+string frist = emailList.ElementAt(0
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTU2NzUxMiwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbLTE0MDU1NzI5NzUsLTIwMDU4NDQxOTZdfQ
+==
 -->
