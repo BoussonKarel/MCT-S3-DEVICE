@@ -333,12 +333,19 @@ public Beer() : this("no name") {
 public Beer(string name) : this(name, 6) {
 }
 
-public Beer() : this("no name") {
-	// this.Name = "no name";
+public Beer(string name, double alcoholPerc) {
+	this.Name = name;
+	this.Alcohol = alcoholPerc;
+}
+```
+
+```csharp
+public class NonAlcoholicBeer : Beer {
+	public NonAlcoholicBeer(string name) = b
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMzIwMjU4LC02OTMyMTI4MTksLTEyOD
-I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
-Nl19
+eyJoaXN0b3J5IjpbLTU5NTk3NjQ3OCwtNjkzMjEyODE5LC0xMj
+gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
+OTZdfQ==
 -->
