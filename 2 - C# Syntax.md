@@ -197,6 +197,7 @@ Person p1 = new Person("Karel");
 ```
 
 ## Properties
+### Fields vs properties
 **Fields**
 private of protected
 Enkel binnen die klasse kan je er iets mee doen.
@@ -224,7 +225,7 @@ public string Name {
 public double Alcohol { get; set; }
 ```
 
-**Property usage**
+### Property usage
 Properties to manage field access
 ```csharp
 // property which you can't SET outside of this class
@@ -276,19 +277,9 @@ public int Description{
 }
 ```
 
-### Fields vs properties
-- Fields store the actual data
-- Properties are used to access those fields
-- Auto-implemented properties have a hidden field
-
-### Property usage
-- Use propertjes to control field access
-- Enhance input/output control using get & set
-- Calculated properties build on other properties
-  - No field required
-  - Reusability
+### Default values for properties
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzAyMzM3NiwtNjkzMjEyODE5LC0xMj
-gyNzUxNjgsLTk5NjkyMTYwMywyNTA5NDg0MDcsLTIwMDU4NDQx
-OTZdfQ==
+eyJoaXN0b3J5IjpbODQ1MTM3MTc2LC02OTMyMTI4MTksLTEyOD
+I3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5
+Nl19
 -->
