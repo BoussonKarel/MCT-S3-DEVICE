@@ -106,7 +106,23 @@ List<string> teacherList = new List<string> { "SWC", "FWA" };
 ```csharp
 Person[] teacherArr = new Person[10];
 List<Person> teacherList = new List<Person>();
+
+// You can only add Person objects to these
+```
+
+## Selections
+**if / else if / else -- switch**
+```csharp
+if (findTheoryTeacher == true) {
+	email1 = "frederik.waeyaert@howest.be";
+	email2 = null;
+}
+if (findTheoryTeacher == true) {
+	email1 = "frederik.waeyaert@howest.be";
+	email2 = null;
+}
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzQ5OTY4OSwtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbMjAwMTA0MTU4MCwtMjAwNTg0NDE5Nl19
 -->
