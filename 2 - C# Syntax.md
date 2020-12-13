@@ -205,8 +205,10 @@ Person p1 = new Person("Karel");
 ### Property usage
 - Use proeprties to control field access
 - Enhance input/output control using get & set
-- Calculated 
+- Calculated properties build on other properties
+  - No field required
+  - Reusability
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0MzcwNDkwLC05OTY5MjE2MDMsMjUwOT
-Q4NDA3LC0yMDA1ODQ0MTk2XX0=
+eyJoaXN0b3J5IjpbLTEyODI3NTE2OCwtOTk2OTIxNjAzLDI1MD
+k0ODQwNywtMjAwNTg0NDE5Nl19
 -->
