@@ -56,21 +56,23 @@ ContentPage erft over van de TemplatedPage
 
 ## Exchanging data
 ### Exchanging data between pages
+1. Parameters meegeven in de constructor
+2. Of via properties
+
+**Via properties**
+*Bij TabbedPage:*
+```xaml <view:Beernoverview Title="```
 
 ## Belangrijk
 - The different page types and how to use them.
-- The difference between Modal and Modeless pages,
-and how to manage navigation for both.
-You know how to exchange data between pages in the
-navigation process.
-You understand the navigation stack and how you can
-manipulate it.
-•
-You can explain the concept of a
+- The difference between Modal and Modeless pages, and how to manage navigation for both.
+- You know how to exchange data between pages in the navigation process.
+- You understand the navigation stack and how you can manipulate it.
+- You can explain the concept of a
 master detail relation with an example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTcwNTA2NSwtOTA5MjQ3ODYxLC0xMD
-E5MzcxOTc0LC04MzI2ODA5NjhdfQ==
+eyJoaXN0b3J5IjpbLTEwMTUyMTEwMTEsLTkwOTI0Nzg2MSwtMT
+AxOTM3MTk3NCwtODMyNjgwOTY4XX0=
 -->
