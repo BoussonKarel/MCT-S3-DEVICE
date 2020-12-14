@@ -164,18 +164,30 @@ interface IAdvisor {
 
 public class MicrosoftCEO : CEO, IAdvisor {
 	public void Advise() {
+		Console.WriteLine("I think you should allow our monopoly.");
+	}
 	
 	public void EarnBigBucks() {
 		Console.WriteLine("I'm getting rich!");
 	}
+	
 	public void FireDepartment() {
 		Console.WriteLine("You're all fired!");
 	}
 }
+
+// Interface ipv. de abstracte klasse
+public class MinisterOfDefense : IAdvisor {
+	public void Advise() { }
+}
+```
+
+```c
+
 ```
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzExNzQ2MSwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbNzQ2NzMwMDE3LDEyOTI2NDI2NTFdfQ==
 -->
