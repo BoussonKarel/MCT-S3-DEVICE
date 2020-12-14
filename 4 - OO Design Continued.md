@@ -147,11 +147,17 @@ Horse horse = new Horse(); // OK
 + Derived classes can **replace** the way an objects behaves, or **extend** the behavior of the base class.
   + *E.g. Cats can behave different from dogs, however they both MakeSounds() and only dogs ObeyCommands()*
 
+```csharp
+Animal someAnimal = new Pig();
+Animal anotherAnimal = new Horse();
+Debug.Writeline(someAnimal.MakeNoise()); / Hinnikhinnik
+Debug.Writeline(anotherAnimal.MakeNoise()); / Oinkoink
+```
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDA1MjYzNiwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbLTEzNDY1MjA5NzAsMTI5MjY0MjY1MV19
 -->
