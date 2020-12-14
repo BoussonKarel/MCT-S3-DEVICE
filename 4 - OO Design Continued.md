@@ -153,11 +153,13 @@ Animal anotherAnimal = new Horse();
 Debug.Writeline(someAnimal.MakeNoise()); / Hinnikhinnik
 Debug.Writeline(anotherAnimal.MakeNoise()); / Oinkoink
 ```
+> Hinnikhinnik
+> Oinkoink
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY1MjA5NzAsMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbLTE5NzgzNjc0MDYsMTI5MjY0MjY1MV19
 -->
