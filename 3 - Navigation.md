@@ -37,7 +37,7 @@ if (...) { Navigation.PopModalAsync() };
 ```
 
 ## Navigation stack
-
+Soort pak kaarten
 
 ## Page types
 
@@ -47,5 +47,6 @@ if (...) { Navigation.PopModalAsync() };
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkzNzE5NzQsLTgzMjY4MDk2OF19
+eyJoaXN0b3J5IjpbMjA5NTc5NDkyMywtMTAxOTM3MTk3NCwtOD
+MyNjgwOTY4XX0=
 -->
