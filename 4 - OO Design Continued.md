@@ -182,12 +182,21 @@ public class MinisterOfDefense : IAdvisor {
 }
 ```
 
-```c
-
+```csharp
+List<IAdvisor> allAdvisors = new List<IAdvisor>();
+allAdvisors.Add(new MinisterOfDefense());
+allAdvisors.Add(new MicrosoftCEO());
+...
+foreach (IAdvisor advisor in allAdvisors) {
+	advisor.Advise();
+}
 ```
+
+- **Interfaces** can be seen as a **contract** for classes
+  - Implementing = apply
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NzMwMDE3LDEyOTI2NDI2NTFdfQ==
+eyJoaXN0b3J5IjpbMTQ5Nzk0Mjg5OCwxMjkyNjQyNjUxXX0=
 -->
