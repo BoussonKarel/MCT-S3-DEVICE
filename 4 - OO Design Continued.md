@@ -207,7 +207,19 @@ Beter qua onderhoud en complexiteit om tegen interfaces te programmeren.
 **IEnumerable**, hiermee kan je foreach'en
 
 ## Composition
+Object in een ander object gebruiken.
+```csharp
+public class PC {
+	// Option 1
+	private Disk _disk = ne;
+}
+
+public class Disk {
+
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzA4MDcwMiwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbLTEyNzQzMTQ5MzEsMTQ3NzA4MDcwMiwxMj
+kyNjQyNjUxXX0=
 -->
