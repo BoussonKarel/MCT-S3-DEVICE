@@ -209,6 +209,10 @@ Beter qua onderhoud en complexiteit om tegen interfaces te programmeren.
 ## Composition
 Object in een ander object gebruiken.
 ```csharp
+public class Disk {
+
+}
+
 public class PC {
 	// Option 1: COMPOSITION
 	private Disk _disk = new Disk();
@@ -232,13 +236,22 @@ public class PC {
 	// Disk myDisk = new Disk();
 	// myPC.disk = myDisk;
 }
-
-public class Disk {
-
-}
 ```
+**Aggregation:** Disk zal blijven bestaan als de PC verwijderd wordt
 
+## Belangrijk
+- You are convinced by the advantages of inheritance and polymorphism , and can explain using an example
+- You understand the usage and consequences of the
+virtual and abstract keywords for properties and
+methods.
+•
+You know when to use abstract classes and/or
+interfaces , and can explain the difference between
+those two.
+•
+You understand the specific importance of
+interfaces in Xamarin (.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI2MDYzMTQsLTg2OTM0NDMwNCwxND
-c3MDgwNzAyLDEyOTI2NDI2NTFdfQ==
+eyJoaXN0b3J5IjpbOTI1OTY1NDAwLC04NjkzNDQzMDQsMTQ3Nz
+A4MDcwMiwxMjkyNjQyNjUxXX0=
 -->
