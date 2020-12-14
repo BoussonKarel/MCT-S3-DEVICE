@@ -38,15 +38,19 @@ if (...) { Navigation.PopModalAsync() };
 
 ## Navigation stack
 Soort pak kaarten
+![Navigation Stack](https://i.imgur.com/yZfogLF.png)
+
+![Navigation Stack extra's](https://i.imgur.com/7Quir4l.png)
 
 ## Page types
-
+![](https://i.imgur.com/5lEE1Bl.png)
+ContentPage e
 
 ## Exchanging data
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTc5NDkyMywtMTAxOTM3MTk3NCwtOD
+eyJoaXN0b3J5IjpbLTQxMzYxNTMyMCwtMTAxOTM3MTk3NCwtOD
 MyNjgwOTY4XX0=
 -->
