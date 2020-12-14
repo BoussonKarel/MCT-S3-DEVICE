@@ -106,18 +106,17 @@ new Raket().Vlieg();
 ### Properties / Methods: ABSTRACT & OVERRIDE
 **abstract** betekent dat je kan overerven, maar er geen instantie van kan maken.
 ```csharp
-public class Raket : Vliegtuig {
-	public override void Vlieg() {
-		Console.Writeline("De raket verdwijnt in de ruimte.");
-	}
+public abstract class Animal
+	public int Name { get; set; }
 }
 
-new Vliegtuig().Vlieg();
-new Raket().Vlieg();
-```
-> [0:] Het vliegtuig vliegt rustig door de wolken.
-> [1:] De raket verdwijnt in de ruimte.
+public class Horse : Animal
+	// ...
+}
 
+Animal animal = new Animal(); // ERROR
+Wolf lilWolf = new Wolf(); // OK
+```
 
 ## Polymorphism
 
@@ -126,5 +125,5 @@ new Raket().Vlieg();
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzYyOTA5OSwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbNzcyMTYwMDQsMTI5MjY0MjY1MV19
 -->
