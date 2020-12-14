@@ -157,10 +157,23 @@ Debug.Writeline(anotherAnimal.MakeNoise()); / Oinkoink
 > Oinkoink
 
 ## Interfaces
+```csharp
+interface IAdvisor {
+   void Advise();
+}
 
+public class MicrosoftCEO : CEO {
+	public void EarnBigBucks() {
+		Console.WriteLine("I'm getting rich!");
+	}
+	public void FireDepartment() {
+		Console.WriteLine("You're all fired!");
+	}
+}
+```
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg0MDMyMCwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMTUxNDE0MjY2OSwxMjkyNjQyNjUxXX0=
 -->
