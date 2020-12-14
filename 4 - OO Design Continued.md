@@ -130,23 +130,28 @@ public class Horse : Animal
 	}
 }
 
+public class Pig : Animal
+	public override string MakeNoise() {
+		return "Oinkoink";
+	}
+}
+
 Animal animal = new Animal(); // ERROR
-Wolf lilWolf = new Wolf(); // OK
+Horse horse = new Horse(); // OK
 ```
 
 ## Polymorphism
-
-
 - Objects of a derived class can be treated like objects of the base class at runtime.
   - List\<**Animal**> contains **Horse**s, **Cat**s, **Dog**s...
 
 + Derived classes can **replace** the way an objects behaves, or **extend** the behavior of the base class.
-  + *E.g. **Cat**s can behave different 
+  + *E.g. Cats can behave different from dogs, however they both MakeSounds() and only dogs ObeyCommands()*
+
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzM2NDE1MSwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMTU2MDA1MjYzNiwxMjkyNjQyNjUxXX0=
 -->
