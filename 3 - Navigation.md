@@ -44,13 +44,17 @@ Soort pak kaarten
 
 ## Page types
 ![](https://i.imgur.com/5lEE1Bl.png)
-ContentPage e
+ContentPage erft over van de TemplatedPage
+
+**NavigationPage** heeft een navigationbar, deze kan je aan/uitzetten, ook backbutton kan je togglen, title kan je veranderen...
+
+
 
 ## Exchanging data
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzYxNTMyMCwtMTAxOTM3MTk3NCwtOD
+eyJoaXN0b3J5IjpbLTkwOTI0Nzg2MSwtMTAxOTM3MTk3NCwtOD
 MyNjgwOTY4XX0=
 -->
