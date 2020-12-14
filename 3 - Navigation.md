@@ -48,16 +48,29 @@ ContentPage erft over van de TemplatedPage
 
 **NavigationPage** heeft een navigationbar, deze kan je aan/uitzetten, ook backbutton kan je togglen, title kan je veranderen...
 
-
-
 **MasterDetailPage**
 ![MasterDetailPage](https://i.imgur.com/oNaeOkQ.png)
 
-## Exchanging data
+**TabbedPage** in plaats van links een menu, tabs
+![TabbedPage](https://i.imgur.com/ffc9fv4.png)
 
+## Exchanging data
+### Exchanging data between pages
+
+## Belangrijk
+- The different page types and how to use them.
+- The difference between Modal and Modeless pages,
+and how to manage navigation for both.
+You know how to exchange data between pages in the
+navigation process.
+You understand the navigation stack and how you can
+manipulate it.
+•
+You can explain the concept of a
+master detail relation with an example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyOTYwNzM2LC05MDkyNDc4NjEsLTEwMT
-kzNzE5NzQsLTgzMjY4MDk2OF19
+eyJoaXN0b3J5IjpbLTk3OTcwNTA2NSwtOTA5MjQ3ODYxLC0xMD
+E5MzcxOTc0LC04MzI2ODA5NjhdfQ==
 -->
