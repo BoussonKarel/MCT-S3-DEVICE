@@ -199,12 +199,17 @@ foreach (IAdvisor advisor in allAdvisors) {
 
 + Contact + NO implementations: **interface**
 + Contract + SOME implementations: **abstract** (base) **class**
-+ Implementation for all properties & methods: 
++ Implementation for all properties & methods: normal (base) **class**
 
+Beter qua onderhoud en complexiteit om tegen interfaces te programmeren.
 
+### Examples
+**IEnumerable**, hiermee kan je foreach'en
+
+ICollectible
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDQ0NDczNiwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMTkzMjQ2MjkxOSwxMjkyNjQyNjUxXX0=
 -->
