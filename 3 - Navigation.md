@@ -61,7 +61,16 @@ ContentPage erft over van de TemplatedPage
 
 **Via properties**
 *Bij TabbedPage:*
-```xaml <view:Beernoverview Title="```
+```xaml
+<view:BeerOverview Title="alcohol free" IsAlcoholic="False" />
+```
+
+In BeerOverview
+```csharp
+public bool? IsAlcoholic { get; set; }
+```
+
+bool? kan true, false of null
 
 ## Belangrijk
 - The different page types and how to use them.
@@ -73,6 +82,6 @@ master detail relation with an example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUyMTEwMTEsLTkwOTI0Nzg2MSwtMT
-AxOTM3MTk3NCwtODMyNjgwOTY4XX0=
+eyJoaXN0b3J5IjpbLTk1NDM2MjMzNSwtOTA5MjQ3ODYxLC0xMD
+E5MzcxOTc0LC04MzI2ODA5NjhdfQ==
 -->
