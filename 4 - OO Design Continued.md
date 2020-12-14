@@ -222,7 +222,7 @@ public class PC {
 		// else _disk = null;
 	}
 
-	// Option 1
+	// Option 3
 	private Disk _disk = new Disk();
 }
 
@@ -232,6 +232,6 @@ public class Disk {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTM0NDMwNCwxNDc3MDgwNzAyLDEyOT
-I2NDI2NTFdfQ==
+eyJoaXN0b3J5IjpbLTE5MjYwNzU1MDYsLTg2OTM0NDMwNCwxND
+c3MDgwNzAyLDEyOTI2NDI2NTFdfQ==
 -->
