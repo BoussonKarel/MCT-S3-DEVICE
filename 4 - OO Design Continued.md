@@ -162,7 +162,9 @@ interface IAdvisor {
    void Advise();
 }
 
-public class MicrosoftCEO : CEO {
+public class MicrosoftCEO : CEO, IAdvisor {
+	public void Advise() {
+	
 	public void EarnBigBucks() {
 		Console.WriteLine("I'm getting rich!");
 	}
@@ -175,5 +177,5 @@ public class MicrosoftCEO : CEO {
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDE0MjY2OSwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMTAyMzExNzQ2MSwxMjkyNjQyNjUxXX0=
 -->
