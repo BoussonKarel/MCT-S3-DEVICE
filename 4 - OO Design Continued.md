@@ -158,8 +158,9 @@ Debug.Writeline(anotherAnimal.MakeNoise()); / Oinkoink
 
 ## Interfaces
 
+
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgzNjc0MDYsMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbLTE2Mjg0MDMyMCwxMjkyNjQyNjUxXX0=
 -->
