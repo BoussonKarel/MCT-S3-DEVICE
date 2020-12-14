@@ -70,18 +70,18 @@ In BeerOverview
 public bool? IsAlcoholic { get; set; }
 ```
 
-bool? kan true, false of null
+\* bool? kan true, false of **null** zijn
 
 ## Belangrijk
-- The different page types and how to use them.
-- The difference between Modal and Modeless pages, and how to manage navigation for both.
-- You know how to exchange data between pages in the navigation process.
-- You understand the navigation stack and how you can manipulate it.
+- The different **page types** and how to use them.
+- The difference between **Modal** and **Modeless** pages, and how to manage navigation for both.
+- You know how to **exchange data** between pages in the navigation process.
+- You understand the **navigation stack** and how you can manipulate it.
 - You can explain the concept of a
-master detail relation with an example
+**master-detail** relation with an example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDM2MjMzNSwtOTA5MjQ3ODYxLC0xMD
+eyJoaXN0b3J5IjpbMTkyNjgwOTc2NywtOTA5MjQ3ODYxLC0xMD
 E5MzcxOTc0LC04MzI2ODA5NjhdfQ==
 -->
