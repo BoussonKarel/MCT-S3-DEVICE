@@ -210,10 +210,10 @@ Beter qua onderhoud en complexiteit om tegen interfaces te programmeren.
 Object in een ander object gebruiken.
 ```csharp
 public class PC {
-	// Option 1
+	// Option 1: COMPOSITION
 	private Disk _disk = new Disk();
 
-	// Option 1
+	// Option 2: COMPOSITION
 	private Disk _disk;
 	
 	public PC (bool parameter) {
@@ -222,8 +222,15 @@ public class PC {
 		// else _disk = null;
 	}
 
-	// Option 3
-	private Disk _disk = new Disk();
+	// Option 3: AGGREGATION
+	private Disk _disk;
+	public Disk disk {
+		get { return _disk; }
+		set { _disk = value; 
+	}
+	// somewhere in code
+	// Disk myDisk = new Disk();
+	// myPC.disk = myDisk;
 }
 
 public class Disk {
@@ -232,6 +239,6 @@ public class Disk {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYwNzU1MDYsLTg2OTM0NDMwNCwxND
+eyJoaXN0b3J5IjpbLTIwMjI2MDYzMTQsLTg2OTM0NDMwNCwxND
 c3MDgwNzAyLDEyOTI2NDI2NTFdfQ==
 -->
