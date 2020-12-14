@@ -118,12 +118,29 @@ Animal animal = new Animal(); // ERROR
 Wolf lilWolf = new Wolf(); // OK
 ```
 
+Abstracte methods kunnen enkel in abstracte klasses
+```csharp
+public abstract class Animal
+	public abstract string MakeNoise();
+}
+
+public class Horse : Animal
+	public override string MakeNoise() {
+		return "Hinnikhinnik";
+	}
+}
+
+Animal animal = new Animal(); // ERROR
+Wolf lilWolf = new Wolf(); // OK
+```
+
 ## Polymorphism
+List\<**Animal**> contains **Horse**s, **Cat**s, **Dog**s...
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMTYwMDQsMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbLTEwODQzODUxMzMsMTI5MjY0MjY1MV19
 -->
