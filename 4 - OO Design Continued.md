@@ -141,12 +141,12 @@ Wolf lilWolf = new Wolf(); // OK
   - List\<**Animal**> contains **Horse**s, **Cat**s, **Dog**s...
 
 + Derived classes can **replace** the way an objects behaves, or **extend** the behavior of the base class.
-  + *E.g. 
+  + *E.g. **Cat**s can behave different 
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAzNTI0OTgsMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbMTMwNzM2NDE1MSwxMjkyNjQyNjUxXX0=
 -->
