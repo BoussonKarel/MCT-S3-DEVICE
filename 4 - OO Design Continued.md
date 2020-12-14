@@ -193,10 +193,18 @@ foreach (IAdvisor advisor in allAdvisors) {
 ```
 
 - **Interfaces** can be seen as a **contract** for classes
-  - Implementing = apply
+  - Implementing = applying the contract
+- An interface **forces** all implementing classes to implement properties and/or methods
+-  but has **no default implementations** on its own.
+
++ Contact + NO implementations: **interface**
++ Contract + SOME implementations: **abstract** (base) **class**
++ Implementation for all properties & methods: 
+
+
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzk0Mjg5OCwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMjAzNDQ0NDczNiwxMjkyNjQyNjUxXX0=
 -->
