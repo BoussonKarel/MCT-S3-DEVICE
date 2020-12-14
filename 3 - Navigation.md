@@ -50,11 +50,14 @@ ContentPage erft over van de TemplatedPage
 
 
 
+**MasterDetailPage**
+![MasterDetailPage](https://i.imgur.com/oNaeOkQ.png)
+
 ## Exchanging data
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTI0Nzg2MSwtMTAxOTM3MTk3NCwtOD
-MyNjgwOTY4XX0=
+eyJoaXN0b3J5IjpbNTAyOTYwNzM2LC05MDkyNDc4NjEsLTEwMT
+kzNzE5NzQsLTgzMjY4MDk2OF19
 -->
