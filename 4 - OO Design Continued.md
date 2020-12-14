@@ -240,18 +240,11 @@ public class PC {
 **Aggregation:** Disk zal blijven bestaan als de PC verwijderd wordt
 
 ## Belangrijk
-- You are convinced by the advantages of inheritance and polymorphism , and can explain using an example
-- You understand the usage and consequences of the
-virtual and abstract keywords for properties and
-methods.
-•
-You know when to use abstract classes and/or
-interfaces , and can explain the difference between
-those two.
-•
-You understand the specific importance of
-interfaces in Xamarin (.
+- You are convinced by the advantages of **inheritance** and **polymorphism** , and can explain using an example
+- You understand the usage and consequences of the **virtual** and **abstract** keywords for properties and methods.
+- You know when to use **abstract classes** and/or **interfaces** , and can explain the difference between those two.
+- You understand the specific importance of interfaces in **Xamarin**(.Forms)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTY1NDAwLC04NjkzNDQzMDQsMTQ3Nz
-A4MDcwMiwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbLTEyMTY0MjE1ODQsLTg2OTM0NDMwNCwxND
+c3MDgwNzAyLDEyOTI2NDI2NTFdfQ==
 -->
