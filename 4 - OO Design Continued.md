@@ -135,12 +135,18 @@ Wolf lilWolf = new Wolf(); // OK
 ```
 
 ## Polymorphism
-List\<**Animal**> contains **Horse**s, **Cat**s, **Dog**s...
+
+
+- Objects of a derived class can be treated like objects of the base class at runtime.
+  - List\<**Animal**> contains **Horse**s, **Cat**s, **Dog**s...
+
++ Derived classes can **replace** the way an objects behaves, or **extend** the behavior of the base class.
+  + *E.g. 
 
 ## Interfaces
 
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQzODUxMzMsMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbLTE4NDAzNTI0OTgsMTI5MjY0MjY1MV19
 -->
