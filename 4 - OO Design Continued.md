@@ -72,7 +72,7 @@ public class Medic : Soldier {
 | internal | Any member of a type, also the any nested type | The item is only visible in it's containing assembly |
 
 ### Properties / Methods: VIRTUAL & OVERRIDE
-**virtual** geeft de mogelijkheid om te overriden in de subclasse. (Je kan hem overriden, maar het hoeft niet)
+**virtual** geeft de mogelijkheid om te overriden in de subclasse. *Je kan hem overriden, maar het hoeft niet.*
 
 ```csharp
 public class Vliegtuig {
@@ -103,6 +103,22 @@ new Raket().Vlieg();
 > [0:] Het vliegtuig vliegt rustig door de wolken.
 > [1:] De raket verdwijnt in de ruimte.
 
+### Properties / Methods: ABSTRACT & OVERRIDE
+**abstract** betekent dat je kan overerven, maar er geen instantie van kan maken.
+```csharp
+public class Raket : Vliegtuig {
+	public override void Vlieg() {
+		Console.Writeline("De raket verdwijnt in de ruimte.");
+	}
+}
+
+new Vliegtuig().Vlieg();
+new Raket().Vlieg();
+```
+> [0:] Het vliegtuig vliegt rustig door de wolken.
+> [1:] De raket verdwijnt in de ruimte.
+
+
 ## Polymorphism
 
 ## Interfaces
@@ -110,5 +126,5 @@ new Raket().Vlieg();
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjY0MjY1MV19
+eyJoaXN0b3J5IjpbLTIzMzYyOTA5OSwxMjkyNjQyNjUxXX0=
 -->
