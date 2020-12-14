@@ -211,7 +211,19 @@ Object in een ander object gebruiken.
 ```csharp
 public class PC {
 	// Option 1
-	private Disk _disk = ne;
+	private Disk _disk = new Disk();
+
+	// Option 1
+	private Disk _disk;
+	
+	public PC (bool parameter) {
+		if (parameter)
+			_disk = new Disk();
+		// else _disk = null;
+	}
+
+	// Option 1
+	private Disk _disk = new Disk();
 }
 
 public class Disk {
@@ -220,6 +232,6 @@ public class Disk {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQzMTQ5MzEsMTQ3NzA4MDcwMiwxMj
-kyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbLTg2OTM0NDMwNCwxNDc3MDgwNzAyLDEyOT
+I2NDI2NTFdfQ==
 -->
