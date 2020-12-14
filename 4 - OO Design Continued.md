@@ -206,10 +206,8 @@ Beter qua onderhoud en complexiteit om tegen interfaces te programmeren.
 ### Examples
 **IEnumerable**, hiermee kan je foreach'en
 
-ICollectible
-
 ## Composition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjQ2MjkxOSwxMjkyNjQyNjUxXX0=
+eyJoaXN0b3J5IjpbMTQ3NzA4MDcwMiwxMjkyNjQyNjUxXX0=
 -->
