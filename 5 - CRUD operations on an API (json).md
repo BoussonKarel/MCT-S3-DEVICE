@@ -88,15 +88,17 @@ In QuoteRepository:
 
 - Use your own **model**
 - Browse through the documentation to find the correct **endpoints**
-+ Create the repository functions:
+
++ Create the **repository functions**:
   + Use the **async** keyword
   + Wrap the **return type** in a **Task** (void) or **Task\<T>** object
-- When calling these async functions
-- Deicde if its necessaru tp await or not
-- the return type should be wr
+
+- When **calling** these **async functions**:
+  - Decide if it's necessary to **await or not**
+  - The **return type** should be wrapped in a **Task** (void) or **Task<T>** object!
 
 ## Manipulate (PUT/POST/DELETE) data async
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNz
-c5NTU3NjQsMTM4MDMwMDY4NF19
+eyJoaXN0b3J5IjpbLTU5MTA0MDE5NywyMDkwNjUzNTgxLC01Mj
+QzOTAzODQsMjA3Nzk1NTc2NCwxMzgwMzAwNjg0XX0=
 -->
