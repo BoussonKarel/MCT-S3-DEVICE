@@ -45,11 +45,12 @@ public class Quote {
 
 ## GET data async
 
+In QuoteRepository:
 ```csharp
-public class QuoteRepository {
 	// define BASE URI
 	private const string _BASEURI = "api-url.com/route";
-	
+```
+```csharp
 	// Prepare the HttpClient
 	private static GetHttpClient() {
 		HttpClient client = new HttpClient();
@@ -60,7 +61,8 @@ public class QuoteRepository {
 		
 		return client;
 	}
-
+```
+```csharp
 	// GET a single quote
 	public static async Task<Quote> GetRandomQuote() {
 		string url = $"{_BASEURI}/quotes/random";
@@ -70,16 +72,17 @@ public class QuoteRepository {
 			try {
 				// Ask for JSON data
 				string json = await client.GetStringAsync(url);
-				
+
+				// Convert to a Quote object
+				Quote quote = JsonConve
 			}
 			catch (Exception ex) {
 				throw ex; // ALWAYS add breakpoint here
 			}
 		}
 	}
-}
 ```
 ## Manipulate (PUT/POST/DELETE) data async
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDMwMDY4NF19
+eyJoaXN0b3J5IjpbMTg5NTE5MjQwOCwxMzgwMzAwNjg0XX0=
 -->
