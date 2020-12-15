@@ -116,7 +116,7 @@ In QuoteRepository:
 				StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
 				
 				// Request PUT using URL and the StringContent
-				
+				await client.PutAsync(url, content);
 			}
 			catch (Exception ex) {
 				throw ex; // ALWAYS add breakpoint here
@@ -125,7 +125,7 @@ In QuoteRepository:
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgzMTM0MTgsMTM4MjY4OTExLC01OT
-EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
-NjQsMTM4MDMwMDY4NF19
+eyJoaXN0b3J5IjpbLTk3MTQwMTk0MCwxMzgyNjg5MTEsLTU5MT
+A0MDE5NywyMDkwNjUzNTgxLC01MjQzOTAzODQsMjA3Nzk1NTc2
+NCwxMzgwMzAwNjg0XX0=
 -->
