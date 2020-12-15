@@ -188,7 +188,9 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ![](https://i.imgur.com/vFjbxVL.png)
 
 ## StackLayout
-- StackLayout arranges its children in a single column or a single row
+> StackLayout arranges its children in a single column or a single row
+
+![enter image description here](https://i.imgur.com/N9vH4UP.png)
 + You can add children to a StackLayout in XAML
   + Layout order is determined by the order they were added to the Children collection (applies to both code and XAML)
 - StackLayout's **Spacing** separates the children (default: 6)
@@ -289,8 +291,9 @@ Grid.SetColumn(button, 2);
 
 
 ## Grid
-> Grid places its children into cells forme
+> Grid places its children into cells formed from rows and columns
+![enter image description here](https://i.imgur.com/EubZVAv.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODE1OTAyNiw4ODg1NTUxNjUsLTQ3Mz
+eyJoaXN0b3J5IjpbLTM4MzAyMjcxMyw4ODg1NTUxNjUsLTQ3Mz
 k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
