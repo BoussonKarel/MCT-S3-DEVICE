@@ -8,8 +8,13 @@ E**x**tensible **A**pplication **M**arkup **L**anguage
 ![XAML](https://i.imgur.com/XW7trfY.png)
 
 - Easy designing of a UI
-- 
+- Designer Friendly
+- Separation of UI from Behavior
+
+## Pages
+Xamarin.Forms Pages represent closs-platform mobile application screens.
+*ContentPage, MasterDetailPage, NavigationPage, TabbedPage, TemplatedPage, CarouselPage...*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg1ODMyMSwtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbMzkyOTU1NjEsLTExNjI5NDU3NjgsMTY4MT
+U4ODA3NF19
 -->
