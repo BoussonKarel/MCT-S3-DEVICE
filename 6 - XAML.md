@@ -291,11 +291,18 @@ Grid.SetColumn(button, 2);
 
 ## Grid
 > Grid places its children into cells formed from rows and columns
-![enter image description here](https://i.imgur.com/EubZVAv.png)
+![](https://i.imgur.com/EubZVAv.png)
 
 ### Grid rows/columns
-- You specify the shape of the grid by definig
+- You specify the shape of the grid by defining each row and column individually
+
+![](https://i.imgur.com/BHYCkaW.png)
+
+### What is GridLength
+- Gridlength encapsulates two things: unit and value
+  - GridUnitType (can be Absolute, Auto, Star)
+  - Value
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzI2OTAxNyw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbNjk1Mjg5MzYsODg4NTU1MTY1LC00NzM5NT
+MxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
