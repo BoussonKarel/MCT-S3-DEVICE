@@ -46,7 +46,14 @@ public static class NewsRepository {
 	}
 }
 ```
+
+## Belangrijk
+- The difference between synchronous and asynchronous programming
+- The what and the why of asynchronous programming
+- The meaning and usage of the async keyword
+- The meaning and usage of the await keyword
+- The return type of async functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc4OTE1MTcsNjIwOTQ4NTI4LC0xOT
-Y2MDc0MDYzXX0=
+eyJoaXN0b3J5IjpbMjMxOTg2OTQ4LDYyMDk0ODUyOCwtMTk2Nj
+A3NDA2M119
 -->
