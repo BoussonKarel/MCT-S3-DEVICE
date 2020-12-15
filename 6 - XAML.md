@@ -29,9 +29,11 @@ Een View kan je ook apart maken en hergebruiken in andere pagina's.
 ![Child nodes](https://i.imgur.com/abApGdS.png)
 
 ### XAML + Code behind
-- XAML and code behind files are tied to
+- XAML and code behind files are tied together
 ![](https://i.imgur.com/9dTl4uS.png)
+
+- Code behind constructor has to call ```InitializeComponent()``` which is responsible for loading the XAML and creating the objects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTk3MjExMywtMTE2Mjk0NTc2OCwxNj
+eyJoaXN0b3J5IjpbMTcwNDg1NTgyMywtMTE2Mjk0NTc2OCwxNj
 gxNTg4MDc0XX0=
 -->
