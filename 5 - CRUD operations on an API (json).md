@@ -124,8 +124,34 @@ In QuoteRepository:
 		}
 	}
 ```
+
+### POST an object to the API to ADD/
+```csharp
+// UPDATE a single quote
+	public static async Task UpdateQuoteAsync(Quote updatedQuote) {
+		// URL from API documentation
+		string url = $"{_BASEURI}/quotes";
+
+		// Create and use HttpClient
+		using (HttpClient client = GetHttpClient()) {
+			try {
+				// Serialize C# object to JSON string
+				string json = JsonConvert.SerializeObject(updatedQuote);
+				
+				// Build the stringcontent with this serialize JSON object
+				StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+				
+				// Request PUT using URL and the StringContent
+				await client.PutAsync(url, content);
+			}
+			catch (Exception ex) {
+				throw ex; // ALWAYS add breakpoint here
+			}
+		}
+	}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTQwMTk0MCwxMzgyNjg5MTEsLTU5MT
-A0MDE5NywyMDkwNjUzNTgxLC01MjQzOTAzODQsMjA3Nzk1NTc2
-NCwxMzgwMzAwNjg0XX0=
+eyJoaXN0b3J5IjpbNDQwODY2MjU0LDEzODI2ODkxMSwtNTkxMD
+QwMTk3LDIwOTA2NTM1ODEsLTUyNDM5MDM4NCwyMDc3OTU1NzY0
+LDEzODAzMDA2ODRdfQ==
 -->
