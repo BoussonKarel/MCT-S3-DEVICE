@@ -113,7 +113,10 @@ In QuoteRepository:
 				string json = JsonConvert.SerializeObject(updatedQuote);
 				
 				// Build the stringcontent with this serialize JSON object
-				StringContent content = new StringContent(json, Encoding.UTF8, "application/jso
+				StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+				
+				// Request PUT using URL and the StringContent
+				
 			}
 			catch (Exception ex) {
 				throw ex; // ALWAYS add breakpoint here
@@ -122,7 +125,7 @@ In QuoteRepository:
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgzMjQ5MDMsMTM4MjY4OTExLC01OT
+eyJoaXN0b3J5IjpbLTEzODgzMTM0MTgsMTM4MjY4OTExLC01OT
 EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
 NjQsMTM4MDMwMDY4NF19
 -->
