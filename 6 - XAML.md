@@ -284,12 +284,13 @@ Grid.SetColumn(button, 2);
 
 ### Apply an attached property in XAML
 ```xml
-var button = new Button();
-
-Grid.SetRow(button, 1);
-Grid.SetColumn(button, 2);
+<Button Grid.Row="1" Grid.Column="2" ... />
 ```
+
+
+## Grid
+> Grid places its children into cells forme
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIwNDg3MjIsODg4NTU1MTY1LC00Nz
-M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbLTk2ODE1OTAyNiw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
