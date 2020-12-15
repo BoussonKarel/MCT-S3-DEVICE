@@ -119,8 +119,15 @@ Layout panel asks each child how much room it would like, but then tells each ch
 
 ### Default view sizing
 - By default, most views try to size themselves just large enough to hold their content.
-  - *E.g. y default, Labels are sized based on their text.*
+  - *E.g. by default, Labels are sized based on their text.*
+
+### View preferences
+- A view has four properties that influence the rendered size; they are all requests and may be overruled by the layout container
+
+![enter image description here](https://i.imgur.com/jCuJP8k.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5MzA1NjAsLTExNjI5NDU3NjgsMTY4MT
-U4ODA3NF19
+eyJoaXN0b3J5IjpbNjQ4NTYxOTY2LC0xMTYyOTQ1NzY4LDE2OD
+E1ODgwNzRdfQ==
 -->
