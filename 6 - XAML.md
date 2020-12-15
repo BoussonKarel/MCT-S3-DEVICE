@@ -105,8 +105,12 @@ Xamarin.Forms views are the building blocks of cross-platform mobile user interf
 
 Views are user-interface objects such as labels, buttons and sliders that are commonly known as controls or widgets in other graphical programming environments.
 
+![views](https://i.imgur.com/k1HwGrD.png)
 
+## Working with sizes
+The rendered size of a view is a collaboration between the view itself and its layout container.
+![enter image description here](https://i.imgur.com/2wAMIJb.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTU3MTIxNiwtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbLTE2NzAzOTk5NzMsLTExNjI5NDU3NjgsMT
+Y4MTU4ODA3NF19
 -->
