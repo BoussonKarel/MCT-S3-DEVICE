@@ -392,7 +392,22 @@ Wrap a ScrollView around a single element to add scrolling
 	</StackLayout>
 </ScrollView>
 ```
+![](https://i.imgur.com/GtB4Zhj.png)
+
+### ScrollView orientation
+ScrollView lets you control the scroll direction: Vertical (default), Horizontal or Both
+
+```xml
+<ScrollView Orientation="Both">
+	<Image Source="monkey.jpg"
+	HeightRequest="1000"
+	WidthRequest="1000" />
+</ScrollView>
+```
+![](https://i.imgur.com/XkeflrK.png)
+
+### Do not nest scrolling view
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ4MDQ1NjQsODg4NTU1MTY1LC00Nz
+eyJoaXN0b3J5IjpbLTE3NTMwMDQzMTIsODg4NTU1MTY1LC00Nz
 M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
