@@ -33,10 +33,16 @@ public static async Task<List<NewsItem>> GetNewsItemsAsync()
 
 ### Call an async method
 ```csharp
+// MainPage.xaml.cs
 public asynk Task FillNewsItemsAsync() {
-	
+	List<NewsItem> results = await NewsRepository.GetNewsItemsAsync();
+	lvwNewsItems.ItemsSource = results;
 }
+
+// NewsRepository.cs
+public static class NewsRepository 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwOTQ4NTI4LC0xOTY2MDc0MDYzXX0=
+eyJoaXN0b3J5IjpbMzQ3MjY5NTkxLDYyMDk0ODUyOCwtMTk2Nj
+A3NDA2M119
 -->
