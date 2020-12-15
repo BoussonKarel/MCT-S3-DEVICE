@@ -110,7 +110,12 @@ Views are user-interface objects such as labels, buttons and sliders that are co
 ## Working with sizes
 The rendered size of a view is a collaboration between the view itself and its layout container.
 ![enter image description here](https://i.imgur.com/2wAMIJb.png)
+
+Layout panel asks each child how much room it would like, but then tells each child how much it gets.
+![enter image description here](https://i.imgur.com/xaN0sQx.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzAzOTk5NzMsLTExNjI5NDU3NjgsMT
+eyJoaXN0b3J5IjpbLTE1OTE1NzAxNjIsLTExNjI5NDU3NjgsMT
 Y4MTU4ODA3NF19
 -->
