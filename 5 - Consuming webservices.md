@@ -30,6 +30,8 @@ public static List<NewsItem> GetNewsItems()
 // asynchronously
 public static async Task<List<NewsItem>> GetNewsItemsAsync()
 ```
+
+### Call an async method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYwNzQwNjNdfQ==
+eyJoaXN0b3J5IjpbLTc1Nzk3MzU3NCwtMTk2NjA3NDA2M119
 -->
