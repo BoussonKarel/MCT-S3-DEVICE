@@ -268,8 +268,12 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 
 ## Apply Attached Properties
 > An attached property is a property that is defined in once class but set on objects of other types.
-> 
+
+![](https://i.imgur.com/vUMWnfk.png)
+
+- Typically, a container will look for attached properties on its children.
+  - *When a button is in a Grid, the grid reads the attached properties it needs...*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzI2MjMsODg4NTU1MTY1LC00NzM5NT
-MxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbLTEzODY2MTQ1NjEsODg4NTU1MTY1LC00Nz
+M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
