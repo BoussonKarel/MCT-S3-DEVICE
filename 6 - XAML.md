@@ -84,8 +84,16 @@ public partial class MainPage : ContentPage {
 }
 ```
 
-- 
+- Many developers prefer to wire up all events in code behind by naming the XAML elements and adding event handlers in code
+  - Keep the UI layer "pure" by pushing all behavior + management into the code behind
+  - Names are validated at compile time, but event handlers are not
+  - Easier to see how logic is wired up
+
++ Pick the approach that works for your team / preference
+
+## Layout in Xamarin.Forms
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDEyNDU3NDgsLTExNjI5NDU3NjgsMT
+eyJoaXN0b3J5IjpbLTE3NTY4NzU5MDcsLTExNjI5NDU3NjgsMT
 Y4MTU4ODA3NF19
 -->
