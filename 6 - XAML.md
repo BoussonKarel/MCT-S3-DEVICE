@@ -194,7 +194,7 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 - StackLayout's **Spacing** separates the children (default: 6)
 + StackLayout's **Orientation** property lets you choose a vertical column or a horizontal row (default: vertical)
 
-### LayoutOptions against orientation
+### LayoutOptions against/with orientation
 - In the direction *opposite* of its orientation StackLayout uses the Start, Center, End and Fill layout options.
 ```xml
 <StackLayout Orientation="Vertical">
@@ -210,10 +210,15 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 	<Label ... VerticalOptions="Start" />
 	<Label ... VerticalOptions="Center" />
 	<Label ... VerticalOptions="End" />
-<Label ... VerticalOptions="Fill" />
+	<Label ... VerticalOptions="Fill" />
 </StackLayout>
 ```
+
+### What is expansion?
+- A view's expansion setting determines whether it would like the StackLayout to allocate available extra space to its rectangle.
+
+- Sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODg4OTE4Myw4ODg1NTUxNjUsLTQ3Mz
+eyJoaXN0b3J5IjpbMTUyOTM2NDk4Miw4ODg1NTUxNjUsLTQ3Mz
 k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
