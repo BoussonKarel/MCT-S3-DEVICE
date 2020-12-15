@@ -362,8 +362,14 @@ Grid defines four attached properties used to position children
 Cell locations default to 0 and spans default to 1.
 
 ### Layout options
-A view's h
+A view's horizontal and vertical layout options control how it is sized and positioned within its grid cell (default is Fill)
+![](https://i.imgur.com/YQZfxVJ.png)
+
+### Grid child spacing
+Grid RowSpacing and ColumnSpacing properties separate the chi
+
+### Auto-generated rows/columns
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NDk3MDg3LDg4ODU1NTE2NSwtNDczOT
-UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbMTUxMTE5NjQ5NCw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
