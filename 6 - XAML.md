@@ -406,8 +406,19 @@ ScrollView lets you control the scroll direction: Vertical (default), Horizontal
 ```
 ![](https://i.imgur.com/XkeflrK.png)
 
-### Do not nest scrolling view
+### Do not nest scrolling views
+Generally, do not nest ScrollViews or a ListView in a ScrollView, it often creates non-intuitive behavior.
+
+## Belangrijk
+- Examining XAML syntax
+- Adding Behavior to XAML based pages
+- Exploring XAML capabilities
+- Specify the size of a view
+- Arrange views with StackLayout
+- Apply Attached Properties
+- Arrange views with Grid
+- Scroll a layout with ScrollView
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMwMDQzMTIsODg4NTU1MTY1LC00Nz
-M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbNTk5MDM5Nzc1LDg4ODU1NTE2NSwtNDczOT
+UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
