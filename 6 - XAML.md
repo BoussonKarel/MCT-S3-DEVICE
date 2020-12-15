@@ -18,7 +18,12 @@ Xamarin.Forms Pages represent closs-platform mobile application screens.
 ### Adding a XAML Page
 There are two Item Templates available to add XAML content
 ![enter image description here](https://i.imgur.com/RfEOKSi.png)
+Een View kan je ook apart maken en hergebruiken in andere pagina's.
+
+### Describing a screen in XAML
+- XAML is used to construct object graphs, in this case a visual Page
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzExNjU0OCwtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbLTIwNzIyNzg4MzcsLTExNjI5NDU3NjgsMT
+Y4MTU4ODA3NF19
 -->
