@@ -92,10 +92,11 @@ In QuoteRepository:
   + Use the **async** keyword
   + Wrap the **return type** in a **Task** (void) or **Task\<T>** object
 - When calling these async functions
-- Deicde if its necessar
+- Deicde if its necessaru tp await or not
+- the return type should be wr
 
 ## Manipulate (PUT/POST/DELETE) data async
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTI5NDQzOSwtNTI0MzkwMzg0LDIwNz
+eyJoaXN0b3J5IjpbMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNz
 c5NTU3NjQsMTM4MDMwMDY4NF19
 -->
