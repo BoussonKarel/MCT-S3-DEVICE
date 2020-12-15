@@ -114,8 +114,13 @@ The rendered size of a view is a collaboration between the view itself and its l
 Layout panel asks each child how much room it would like, but then tells each child how much it gets.
 ![enter image description here](https://i.imgur.com/xaN0sQx.png)
 
+## Flash Quiz
+- Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignored.
 
+### Default view sizing
+- By default, most views try to size themselves just large enough to hold their content.
+  - *E.g. y default, Labels are sized based on their text.*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE1NzAxNjIsLTExNjI5NDU3NjgsMT
-Y4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbNDI5MzA1NjAsLTExNjI5NDU3NjgsMTY4MT
+U4ODA3NF19
 -->
