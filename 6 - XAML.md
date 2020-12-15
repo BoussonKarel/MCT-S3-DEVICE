@@ -143,7 +143,15 @@ Layout panel asks each child how much room it would like, but then tells each ch
 </StackLayout>
 ```
 ![enter image description here](https://i.imgur.com/hiKa1W7.png)
+
+### Size requests vs. Fill
+- The Fill layout option generally overrides size preferences
+
+Fill causes WidthRequest to be ignored.
+
+## Flash Quiz
+- Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignored.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzM5NjIxMCwtMTE2Mjk0NTc2OCwxNj
+eyJoaXN0b3J5IjpbMTY4NjgxMDI2MSwtMTE2Mjk0NTc2OCwxNj
 gxNTg4MDc0XX0=
 -->
