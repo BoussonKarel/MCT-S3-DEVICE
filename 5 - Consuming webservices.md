@@ -1,0 +1,35 @@
+# 5 - Consuming webservices
+## Asynchronous programming
+Using the **async** and **await** keywords
+
+### Synchronous
+One thing at a time. User interface is blocked while the repository is doing an API / DB request.
+
+### Asynchronous
+The UI is still reponsive, it doesn't have to wait for repositories to finish requests.
+
+### WHY asynchronous programming?
+Continue to respond to user interaction, while...
+![asychronous tasks](https://i.imgur.com/j6yU5s3.png)
+
+### Creating an asynchronous function
+**Return type void: Task**
+```csharp
+// synchronously
+public static void SavePreferences()
+
+// asynchronously
+public static async Task SavePreferencesAsync()
+```
+
+**Return type T: Task\<T>**
+```csharp
+// synchronously
+public static List<NewsItem> GetNewsItems()
+
+// asynchronously
+public static async Task<List<NewsItem>> GetNewsItemsAsync()
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5NjYwNzQwNjNdfQ==
+-->
