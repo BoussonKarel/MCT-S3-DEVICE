@@ -14,7 +14,11 @@ E**x**tensible **A**pplication **M**arkup **L**anguage
 ## Pages
 Xamarin.Forms Pages represent closs-platform mobile application screens.
 *ContentPage, MasterDetailPage, NavigationPage, TabbedPage, TemplatedPage, CarouselPage...*
+
+### Adding a XAML Page
+There are two Item Templates available to add XAML content
+![enter image description here](https://i.imgur.com/RfEOKSi.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyOTU1NjEsLTExNjI5NDU3NjgsMTY4MT
-U4ODA3NF19
+eyJoaXN0b3J5IjpbMjA0NzExNjU0OCwtMTE2Mjk0NTc2OCwxNj
+gxNTg4MDc0XX0=
 -->
