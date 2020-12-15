@@ -366,10 +366,17 @@ A view's horizontal and vertical layout options control how it is sized and posi
 ![](https://i.imgur.com/YQZfxVJ.png)
 
 ### Grid child spacing
-Grid RowSpacing and ColumnSpacing properties separate the chi
+Grid RowSpacing and ColumnSpacing properties separate the children (both default to 6).
+
+![](https://i.imgur.com/zYKILIb.png)
+*Example with RowSpacing 30 and ColumnSpacing 10*
 
 ### Auto-generated rows/columns
+Grid will automatically generate equal-sized rows/columns based on the position of the children you add.
+![](https://i.imgur.com/6NSQUgU.png)
+
+## ScrollV
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTE5NjQ5NCw4ODg1NTUxNjUsLTQ3Mz
+eyJoaXN0b3J5IjpbLTYxMjMzODI4OCw4ODg1NTUxNjUsLTQ3Mz
 k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
