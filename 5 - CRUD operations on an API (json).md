@@ -101,7 +101,7 @@ In QuoteRepository:
 In QuoteRepository:
 ### PUT an object to the API to update it
 ```csharp
-// UPDATE a single quote
+	// UPDATE a single quote
 	public static async Task UpdateQuoteAsync(Quote updatedQuote) {
 		// URL from API documentation
 		string url = $"{_BASEURI}/quotes";
@@ -125,10 +125,10 @@ In QuoteRepository:
 	}
 ```
 
-### POST an object to the API to ADD/
+### POST an object to the API to ADD/CREATE
 ```csharp
-// UPDATE a single quote
-	public static async Task UpdateQuoteAsync(Quote updatedQuote) {
+	// POST a vote
+	public static async Task PostVoteAsync(Vote vot) {
 		// URL from API documentation
 		string url = $"{_BASEURI}/quotes";
 
@@ -151,7 +151,7 @@ In QuoteRepository:
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwODY2MjU0LDEzODI2ODkxMSwtNTkxMD
-QwMTk3LDIwOTA2NTM1ODEsLTUyNDM5MDM4NCwyMDc3OTU1NzY0
-LDEzODAzMDA2ODRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg2MjgxODQsMTM4MjY4OTExLC01OT
+EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
+NjQsMTM4MDMwMDY4NF19
 -->
