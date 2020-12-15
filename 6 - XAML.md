@@ -300,9 +300,22 @@ Grid.SetColumn(button, 2);
 
 ### What is GridLength
 - Gridlength encapsulates two things: unit and value
-  - GridUnitType (can be Absolute, Auto, Star)
-  - Value
+  - GridUnitType  **GridUnitType** (can be Absolute, Auto, Star)
+  - double **Value**
+
+#### Absolute Gridlength
+Specifies a fixed row height or column width
+```csharp
+var row = new RowDefinition() { Height = new GridLength(100) };
+```
+```xml
+<RowDefinition Height="100" />
+```
+*Value is in platform-independent units.*
+
+#### Auto Gridlength
+Lets the row height or co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1Mjg5MzYsODg4NTU1MTY1LC00NzM5NT
-MxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbLTE1NjM1MzU3MjksODg4NTU1MTY1LC00Nz
+M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
