@@ -97,8 +97,16 @@ Using layout containers to calculate view size and position helps your UI adapt 
 *Size/positions are recalculated automatically when device rotates*
 
 ### What is a layout?
-![enter image description here](https://i.imgur.com/cDOjC3j.png)
+A layout is a Xamarin.Forms container that determines the size and position for a collection of children.
+![Layouts](https://i.imgur.com/cDOjC3j.png)
+
+### What is a view?
+Xamarin.Forms views are the building blocks of cross-platform mobile user interfaces.
+
+Views are user-interface objects such as labels, buttons and sliders that are commonly known as controls or widgets in other graphical programming environments.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTM5MTEyMSwtMTE2Mjk0NTc2OCwxNj
+eyJoaXN0b3J5IjpbMTMwOTU3MTIxNiwtMTE2Mjk0NTc2OCwxNj
 gxNTg4MDc0XX0=
 -->
