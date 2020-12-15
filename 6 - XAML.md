@@ -265,7 +265,9 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 	<Label ... HorizontalOptions="Fill" />
 </StackLayout>
 ```
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0NDYxNjE2LDg4ODU1NTE2NSwtNDczOT
-UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbMTc4Nzk2MTkwMCw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
