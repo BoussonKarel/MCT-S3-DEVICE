@@ -129,7 +129,7 @@ Layout panel asks each child how much room it would like, but then tells each ch
 ![enter image description here](https://i.imgur.com/JfuT5VD.png)
 
 ### Alignments
-- A view's preferred alignment determines its position and size within the rectangle allocated for it by it's container.
+- A view's preferred alignment determines its position and size within the rectangle allocated for it by its container.
 
 ```xml
 <StackLayout>
@@ -156,7 +156,7 @@ Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignor
 </StackLayout>
 ```
 
-HorizontalOptions != Fill and WidthRequest is not defined, so the size is based on it's text.
+HorizontalOptions != Fill and WidthRequest is not defined, so the size is based on its text.
 ![](https://i.imgur.com/mvgt2mO.png)
 
 ---
@@ -222,10 +222,18 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ![](https://i.imgur.com/NXnm6ni.png)
 
 #### How much extra space?
-StackLayout determines the amount of extra space using its standard layout
-calculation as if there were no expansion
+- StackLayout determines the amount of extra space using its standard layout calculation as if there were no expansion.
+```xml
+<StackLayout Orientation="Vertical">
+	<Label Text="One" HeightRequest="100" ... />
+	<Label Text="Two" ... />
+	<Label Text="Three" HeightRequest="50" ... />
+</StackLayout>
+```
+*Uses requested size if provided or "default" size if not.*
 
+- To request expansion, use the "...AndExpand"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MTI3Njg1LDg4ODU1NTE2NSwtNDczOT
-UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbMTE0MzQ3OTUyNyw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
