@@ -32,6 +32,11 @@ public static async Task<List<NewsItem>> GetNewsItemsAsync()
 ```
 
 ### Call an async method
+```csharp
+public asynk Task FillNewsItemsAsync() {
+	
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Nzk3MzU3NCwtMTk2NjA3NDA2M119
+eyJoaXN0b3J5IjpbNjIwOTQ4NTI4LC0xOTY2MDc0MDYzXX0=
 -->
