@@ -114,7 +114,7 @@ The rendered size of a view is a collaboration between the view itself and its l
 Layout panel asks each child how much room it would like, but then tells each child how much it gets.
 ![enter image description here](https://i.imgur.com/xaN0sQx.png)
 
-## Flash Quiz
+### Flash Quiz
 - Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignored.
 
 ### Default view sizing
@@ -149,7 +149,7 @@ Layout panel asks each child how much room it would like, but then tells each ch
 
 Fill causes WidthRequest to be ignored.
 
-## Flash Quiz
+### Flash Quiz
 Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignored.
 
 ---
@@ -179,6 +179,6 @@ HorizontalOptions != Fill and WidthRequest is defined, so the requested width is
 - Padding is extra space on the side of a layout that creates a gap between the children and the layout itself (applicable only to layouts)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjAxNDA4NzYsLTExNjI5NDU3NjgsMT
-Y4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbNzExMjkzNDc0LC0xMTYyOTQ1NzY4LDE2OD
+E1ODgwNzRdfQ==
 -->
