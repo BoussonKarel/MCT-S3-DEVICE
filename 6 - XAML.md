@@ -92,8 +92,13 @@ public partial class MainPage : ContentPage {
 + Pick the approach that works for your team / preference
 
 ## Layout in Xamarin.Forms
+Using layout containers to calculate view size and position helps your UI adapt to varied screen dimensions and resolutions.
 
+*Size/positions are recalculated automatically when device rotates*
+
+### What is a layout?
+![enter image description here](https://i.imgur.com/cDOjC3j.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY4NzU5MDcsLTExNjI5NDU3NjgsMT
-Y4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbLTMwMTM5MTEyMSwtMTE2Mjk0NTc2OCwxNj
+gxNTg4MDc0XX0=
 -->
