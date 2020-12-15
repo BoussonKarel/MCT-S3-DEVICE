@@ -50,10 +50,10 @@ public static class NewsRepository {
 ## Belangrijk
 - The **difference** between **synchronous** and **asynchronous** programming
 - The **what** and the **why** of **asynchronous** programming
-- The meaning and usage of the async keyword
-- The meaning and usage of the await keyword
-- The return type of async functions
+- The meaning and usage of the **async** keyword
+- The meaning and usage of the **await** keyword
+- The **return type** of **async** functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzODM3NzAwLDIzMTk4Njk0OCw2MjA5ND
-g1MjgsLTE5NjYwNzQwNjNdfQ==
+eyJoaXN0b3J5IjpbMTUzMjU1MDAyMCwyMzE5ODY5NDgsNjIwOT
+Q4NTI4LC0xOTY2MDc0MDYzXX0=
 -->
