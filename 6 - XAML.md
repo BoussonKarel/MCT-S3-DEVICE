@@ -152,16 +152,21 @@ Fill causes WidthRequest to be ignored.
 ## Flash Quiz
 Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignored.
 
-
+---
 ```xml
 <StackLayout>
 	<Label Text="Hello" HorizontalOptions="Center" BackgroundColor="Silver" />
 </StackLayout>
 ```
+
+HorizontalOptions != Fill, so the size is based on it's text.
 ![](https://i.imgur.com/mvgt2mO.png)
+
+---
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNDM3Mzk2LC0xMTYyOTQ1NzY4LDE2OD
-E1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTU3MDczMjEsLTExNjI5NDU3NjgsMT
+Y4MTU4ODA3NF19
 -->
