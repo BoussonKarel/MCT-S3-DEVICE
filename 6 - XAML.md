@@ -33,7 +33,11 @@ Een View kan je ook apart maken en hergebruiken in andere pagina's.
 ![](https://i.imgur.com/9dTl4uS.png)
 
 - Code behind constructor has to call ```InitializeComponent()``` which is responsible for loading the XAML and creating the objects.
+
+![](https://i.imgur.com/ZXPOnl3.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDg1NTgyMywtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbMzQxMDQzNDg0LC0xMTYyOTQ1NzY4LDE2OD
+E1ODgwNzRdfQ==
 -->
