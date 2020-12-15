@@ -126,8 +126,13 @@ Layout panel asks each child how much room it would like, but then tells each ch
 
 ![enter image description here](https://i.imgur.com/jCuJP8k.png)
 
+### Size Units
+- Explicit sizes in Xamarin.Forms have no intrinsic units; the values are interpreted by each platform according to that platform's rules
 
+![enter image description here](https://i.imgur.com/JfuT5VD.png)
+
+### Alig
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4NTYxOTY2LC0xMTYyOTQ1NzY4LDE2OD
-E1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbLTQ5NzMzMDcwMiwtMTE2Mjk0NTc2OCwxNj
+gxNTg4MDc0XX0=
 -->
