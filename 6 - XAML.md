@@ -36,8 +36,18 @@ Een View kan je ook apart maken en hergebruiken in andere pagina's.
 
 ![](https://i.imgur.com/ZXPOnl3.png)
 
+### Naming Elements in XAML
+- Use x:Name to assign field name
+  - Allows you to reference element in XAML and code behind
 
++ Adds a private field to the XAML-generated partial class (.g.cs)
+
+- Name must confirm to C# naming conventions and be unique in the file
+
+```XAML
+<Entry x:Name="PhoneNumber" Placeholder="Number" />
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMDQzNDg0LC0xMTYyOTQ1NzY4LDE2OD
-E1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTMxMTE5NTYsLTExNjI5NDU3NjgsMT
+Y4MTU4ODA3NF19
 -->
