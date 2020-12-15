@@ -61,9 +61,21 @@ public partial class MainPage : ContentPage {
 ### Handling events in XAML
 - Can also wire up events in XAML - event handler must be defined in the code behind and have a **proper signature**.
 
+Adding an event in XAML:
 ```XML
 <Entry Placeholder="Number" TextChanged="OnTextChanged" />
 ```
+Adding an event in code:
+```csharp
+public partial class MainPage : ContentPage {
+	public MainPage() {
+		InitializeComponent();
+		
+		PhoneNumber.TextChanged += OnTextChanged;
+	}
+}
+```
+The event:
 ```csharp
 public partial class MainPage : ContentPage {
 	void OnTextChanged(object sender, TextChangedEventArgs e) {
@@ -71,7 +83,9 @@ public partial class MainPage : ContentPage {
 	}
 }
 ```
+
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzU2Mzk3NCwtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbLTE2NDEyNDU3NDgsLTExNjI5NDU3NjgsMT
+Y4MTU4ODA3NF19
 -->
