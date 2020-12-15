@@ -273,7 +273,23 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 
 - Typically, a container will look for attached properties on its children.
   - *When a button is in a Grid, the grid reads the attached properties it needs...*
+
+### Apply an attached property in code
+```csharp
+var button = new Button();
+
+Grid.SetRow(button, 1);
+Grid.SetColumn(button, 2);
+```
+
+### Apply an attached property in XAML
+```xml
+var button = new Button();
+
+Grid.SetRow(button, 1);
+Grid.SetColumn(button, 2);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY2MTQ1NjEsODg4NTU1MTY1LC00Nz
+eyJoaXN0b3J5IjpbLTE0NTIwNDg3MjIsODg4NTU1MTY1LC00Nz
 M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
