@@ -157,14 +157,14 @@ await client.DeleteAsync(url, content);
 ```
 
 ## Belangrijk
-- Serialize your C# Object to JSON data
-- Wrap this JSON data in a StringContent object
+- **Serialize** your C# Object to **JSON** data
+- Wrap this JSON data in a **StringContent** object
 - Pass this object...
-- ... using PUT(Async) for update
-- ... usingPOST(Async) for add/create
+  - ... using **PUT(Async)** for update
+  - ... using **POST(Async)** for add/create
 - For **DELETE(Async)**, usually pass a token and id
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU5NDM3MiwxMzgyNjg5MTEsLTU5MT
+eyJoaXN0b3J5IjpbMTg3NjUwMzUwOCwxMzgyNjg5MTEsLTU5MT
 A0MDE5NywyMDkwNjUzNTgxLC01MjQzOTAzODQsMjA3Nzk1NTc2
 NCwxMzgwMzAwNjg0XX0=
 -->
