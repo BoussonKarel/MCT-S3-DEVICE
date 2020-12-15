@@ -243,8 +243,9 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 </StackLayout>
 ```
 
+### Expansion vs. views size
 ![enter image description here](https://i.imgur.com/8N4nczi.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NDUwNjg4LDg4ODU1NTE2NSwtNDczOT
+eyJoaXN0b3J5IjpbNjEyMzQ2MTU4LDg4ODU1NTE2NSwtNDczOT
 UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
