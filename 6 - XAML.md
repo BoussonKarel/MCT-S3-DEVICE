@@ -353,10 +353,17 @@ Grid defines four attached properties used to position children
 | Row | int; Row in which the item will appear |
 | RowSpan | int; Number of rows the item will span |
 
-### Cell specification
-Apply the Row and Column attached properties to each child
+- **Cell specification**
+- Apply the Row and Column attached properties to each child
++ **Span specification**
++ Apply RowSpan and ColumnSpan to each child as needed
 
+#### Cell and span defaults
+Cell locations default to 0 and spans default to 1.
+
+### Layout options
+A view's h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg0MjExNCw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbODI1NDk3MDg3LDg4ODU1NTE2NSwtNDczOT
+UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
