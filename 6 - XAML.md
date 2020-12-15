@@ -335,9 +335,21 @@ var row = new RowDefinition() { Height = new GridLength(2.5, GridUnitType.Star) 
 - "1*" and "*" are equivalent in XAML
 
 #### Combinations
-I
+It is common to mix different GridLength settings in the same grid.
 ![enter image description here](https://i.imgur.com/kyCYQa6.png)
+
+#### Default size
+Rows and columns deault to '"1*" size
+
+### Row/column numbering
+Starts at 0 (row 0, column 0)
+
+### Grid position properties
+Grid defines four attached properties used to position children
+| Attached property | Value |
+|--|--|
+| Column | An integer that represents the Col
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NzA2MzM1LDg4ODU1NTE2NSwtNDczOT
-UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
+eyJoaXN0b3J5IjpbMTU2OTE3NDUzNyw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
