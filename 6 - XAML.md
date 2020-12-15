@@ -171,8 +171,14 @@ HorizontalOptions != Fill and WidthRequest is not defined, so the size is based 
 HorizontalOptions != Fill and WidthRequest is defined, so the requested width is respected.
 ![enter image description here](https://i.imgur.com/jrGLOTZ.png)
 
+## Margin & padding
+### Margin
+- Margin is extra space around the outside of a view (available in all views, including containers)
+
+### Padding
+- Padding is extra space on the side of a layout that creates a gap between the children and the layout itself (applicable only to layouts)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYxNTYzODcsLTExNjI5NDU3NjgsMT
+eyJoaXN0b3J5IjpbLTIxMjAxNDA4NzYsLTExNjI5NDU3NjgsMT
 Y4MTU4ODA3NF19
 -->
