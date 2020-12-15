@@ -216,13 +216,16 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 
 ### What is expansion?
 - A view's expansion setting determines whether it would like the StackLayout to allocate available extra space to its rectangle.
-
 ![](https://i.imgur.com/96oBAph.png)
 
 + StackLayout expands children only in the direction of its orientation.
-
 ![](https://i.imgur.com/NXnm6ni.png)
+
+#### How much extra space?
+StackLayout determines the amount of extra space using its standard layout
+calculation as if there were no expansion
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDE1OTc3Myw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbNTk3MTI3Njg1LDg4ODU1NTE2NSwtNDczOT
+UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
