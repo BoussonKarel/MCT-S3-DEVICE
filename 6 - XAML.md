@@ -327,12 +327,17 @@ var row = new RowDefinition() {Height = new GridLength(1, GridUnitType.Auto)};
 Shares the available space proportionally among all rows/columns that use star sizing.
 ```csharp
 var row = new RowDefinition() { Height = new GridLength(2.5, GridUnitType.Star) };
-// value is irrelevant for Auto, it is typical to use 1 as the value when creating in code
 ```
 ```xml
 <RowDefinition Height="2.5*" />
 ```
+- *XAML type converter uses * instead of Star using in code*
+- "1*" and "*" are equivalent in XAML
+
+#### Combinations
+I
+![enter image description here](https://i.imgur.com/kyCYQa6.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NzQ0MzM2LDg4ODU1NTE2NSwtNDczOT
+eyJoaXN0b3J5IjpbNTc1NzA2MzM1LDg4ODU1NTE2NSwtNDczOT
 UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
