@@ -85,7 +85,10 @@ In QuoteRepository:
 		}
 	}
 ```
+
+
 ## Manipulate (PUT/POST/DELETE) data async
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Nzk1NTc2NCwxMzgwMzAwNjg0XX0=
+eyJoaXN0b3J5IjpbLTUyNDM5MDM4NCwyMDc3OTU1NzY0LDEzOD
+AzMDA2ODRdfQ==
 -->
