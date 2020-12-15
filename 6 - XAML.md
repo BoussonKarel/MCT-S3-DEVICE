@@ -131,8 +131,19 @@ Layout panel asks each child how much room it would like, but then tells each ch
 
 ![enter image description here](https://i.imgur.com/JfuT5VD.png)
 
-### Alig
+### Alignments
+- A view's preferred alignment determines its position and size within the rectangle allocated for it by it's container.
+
+```xml
+<StackLayout>
+	<Label Text="Start" HorizontalOptions="Start" BackgroundColor="Silver" />
+	<Label Text="Center" HorizontalOptions="Center" BackgroundColor="Silver" />
+	<Label Text="End" HorizontalOptions="End" BackgroundColor="Silver" />
+	<Label Text="Fill" HorizontalOptions="Fill" BackgroundColor="Silver" />
+</StackLayout>
+```
+![enter image description here](https://i.imgur.com/hiKa1W7.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzMzMDcwMiwtMTE2Mjk0NTc2OCwxNj
+eyJoaXN0b3J5IjpbMTA5MzM5NjIxMCwtMTE2Mjk0NTc2OCwxNj
 gxNTg4MDc0XX0=
 -->
