@@ -98,7 +98,10 @@ In QuoteRepository:
   - The **return type** should be wrapped in a **Task** (void) or **Task<T>** object!
 
 ## Manipulate (PUT/POST/DELETE) data async
+In QuoteRepository:
+### PUT an object to the API to update it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTA0MDE5NywyMDkwNjUzNTgxLC01Mj
-QzOTAzODQsMjA3Nzk1NTc2NCwxMzgwMzAwNjg0XX0=
+eyJoaXN0b3J5IjpbMTM4MjY4OTExLC01OTEwNDAxOTcsMjA5MD
+Y1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3NjQsMTM4MDMwMDY4
+NF19
 -->
