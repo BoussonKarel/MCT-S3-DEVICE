@@ -40,9 +40,13 @@ public asynk Task FillNewsItemsAsync() {
 }
 
 // NewsRepository.cs
-public static class NewsRepository 
+public static class NewsRepository {
+	public static async Task<List<NewsItem>> GetNewsItemsAsync() {
+		// load news items asynchronously
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3MjY5NTkxLDYyMDk0ODUyOCwtMTk2Nj
-A3NDA2M119
+eyJoaXN0b3J5IjpbLTEzODc4OTE1MTcsNjIwOTQ4NTI4LC0xOT
+Y2MDc0MDYzXX0=
 -->
