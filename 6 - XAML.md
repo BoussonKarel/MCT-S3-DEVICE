@@ -314,8 +314,25 @@ var row = new RowDefinition() { Height = new GridLength(100) };
 *Value is in platform-independent units.*
 
 #### Auto Gridlength
-Lets the row height or co
+Lets the row height or column width adapt, it automatically becomes the size of the largest child.
+```csharp
+var row = new RowDefinition() {Height = new GridLength(1, GridUnitType.Auto)};
+// value is irrelevant for Auto, it is typical to use 1 as the value when creating in code
+```
+```xml
+<RowDefinition Height="Auto" />
+```
+
+#### Star Gridlength
+Shares the available space proportionally among all rows/columns that use star sizing.
+```csharp
+var row = new RowDefinition() { Height = new GridLength(2.5, GridUnitType.Star) };
+// value is irrelevant for Auto, it is typical to use 1 as the value when creating in code
+```
+```xml
+<RowDefinition Height="2.5*" />
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM1MzU3MjksODg4NTU1MTY1LC00Nz
-M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbMzA1NzQ0MzM2LDg4ODU1NTE2NSwtNDczOT
+UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
