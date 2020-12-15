@@ -197,7 +197,6 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ### LayoutOptions against orientation
 - In the direction *opposite* of its orientation StackLayout uses the Start, Center, End and Fill layout options.
 ```xml
-<!-- Vertical 
 <StackLayout Orientation="Vertical">
 	<Label ... HorizontalOptions="Start" />
 	<Label ... HorizontalOptions="Center" />
@@ -205,7 +204,16 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 	<Label ... HorizontalOptions="Fill" />
 </StackLayout>
 ```
+- In the direction of its orientation, StackLayout ignores the Start, Center, End and Fill layout options.
+```xml
+<StackLayout Orientation="Vertical">
+	<Label ... VerticalOptions="Start" />
+	<Label ... VerticalOptions="Center" />
+	<Label ... VerticalOptions="End" />
+<Label ... VerticalOptions="Fill" />
+</StackLayout>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDIzNzIyNyw4ODg1NTUxNjUsLTQ3Mz
+eyJoaXN0b3J5IjpbMTQ0ODg4OTE4Myw4ODg1NTUxNjUsLTQ3Mz
 k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
