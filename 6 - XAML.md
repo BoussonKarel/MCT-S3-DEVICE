@@ -186,7 +186,9 @@ Layout padding and view margin yield 100 here.
 
 Each view has a margin of 50 and they are additive so the gap here is 100.
 ![](https://i.imgur.com/vFjbxVL.png)
+
+## StackLayout
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Mzk1MzEwMSwtMTE2Mjk0NTc2OCwxNj
-gxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbODg4NTU1MTY1LC00NzM5NTMxMDEsLTExNj
+I5NDU3NjgsMTY4MTU4ODA3NF19
 -->
