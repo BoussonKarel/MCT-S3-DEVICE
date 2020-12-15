@@ -48,7 +48,7 @@ public class Quote {
 In QuoteRepository:
 ```csharp
 	// define BASE URI
-	private const string _BASEURI = "api-url.com/route";
+	private const string _BASEURI = "api-url.com/api/v1";
 ```
 ```csharp
 	// Prepare the HttpClient
@@ -102,20 +102,18 @@ In QuoteRepository:
 ### PUT an object to the API to update it
 ```csharp
 // UPDATE a single quote
-	public static async Task UpdateQuoteAsync(Quote updat) {
+	public static async Task UpdateQuoteAsync(Quote updatedQuote) {
 		// URL from API documentation
-		string url = $"{_BASEURI}/quotes/random";
+		string url = $"{_BASEURI}/quotes";
 
 		// Create and use HttpClient
 		using (HttpClient client = GetHttpClient()) {
 			try {
-				// Ask for JSON data
-				string json = await client.GetStringAsync(url);
-
-				// Convert to a Quote object
-				Quote quote = JsonConvert.DeserializeObject<Quote>(json);
+				// Serialize C# object to JSON string
+				string json = JsonConvert.SerializeObject(updatedQuote);
 				
-				return quote;
+				// Build the stringcontent with this serialize JSON object
+				StringContent content = new StringContent(json, Encoding.UTF8, "application/jso
 			}
 			catch (Exception ex) {
 				throw ex; // ALWAYS add breakpoint here
@@ -124,7 +122,7 @@ In QuoteRepository:
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM5MDQ0NTgsMTM4MjY4OTExLC01OT
+eyJoaXN0b3J5IjpbLTE0MTgzMjQ5MDMsMTM4MjY4OTExLC01OT
 EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
 NjQsMTM4MDMwMDY4NF19
 -->
