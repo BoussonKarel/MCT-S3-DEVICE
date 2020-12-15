@@ -128,7 +128,7 @@ In QuoteRepository:
 ### POST an object to the API to ADD/CREATE
 ```csharp
 	// POST a vote
-	public static async Task PostVoteAsync(Vote vot) {
+	public static async Task PostVoteAsync(Vote newVote) {
 		// URL from API documentation
 		string url = $"{_BASEURI}/quotes";
 
@@ -136,13 +136,13 @@ In QuoteRepository:
 		using (HttpClient client = GetHttpClient()) {
 			try {
 				// Serialize C# object to JSON string
-				string json = JsonConvert.SerializeObject(updatedQuote);
+				string json = JsonConvert.SerializeObject(newVote);
 				
 				// Build the stringcontent with this serialize JSON object
 				StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
 				
 				// Request PUT using URL and the StringContent
-				await client.PutAsync(url, content);
+				await client.PostAsync(url, content);
 			}
 			catch (Exception ex) {
 				throw ex; // ALWAYS add breakpoint here
@@ -150,8 +150,13 @@ In QuoteRepository:
 		}
 	}
 ```
+
+### DELETE an object
+```csharp
+await client.DeleteAsync(url, content);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg2MjgxODQsMTM4MjY4OTExLC01OT
-EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
-NjQsMTM4MDMwMDY4NF19
+eyJoaXN0b3J5IjpbMTQ1NzMzOTgxOCwxMzgyNjg5MTEsLTU5MT
+A0MDE5NywyMDkwNjUzNTgxLC01MjQzOTAzODQsMjA3Nzk1NTc2
+NCwxMzgwMzAwNjg0XX0=
 -->
