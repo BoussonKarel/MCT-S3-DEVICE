@@ -375,8 +375,24 @@ Grid RowSpacing and ColumnSpacing properties separate the children (both default
 Grid will automatically generate equal-sized rows/columns based on the position of the children you add.
 ![](https://i.imgur.com/6NSQUgU.png)
 
-## ScrollV
+## ScrollView
+> ScrollView adds scrolling to a single piece of content; the content can be an individual view or a layout container
+![](https://i.imgur.com/ZQLInGt.png)
+
+### How to use ScrollView
+Wrap a ScrollView around a single element to add scrolling
+
+```xml
+<ScrollView>
+	<StackLayout>
+		<BoxView Color="Silver" HeightRequest="100" />
+		<BoxView Color="Blue" HeightRequest="200" />
+		<BoxView Color="Gray" HeightRequest="300" />
+		<BoxView Color="Navy" HeightRequest="200" />
+	</StackLayout>
+</ScrollView>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjMzODI4OCw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbLTE4NDQ4MDQ1NjQsODg4NTU1MTY1LC00Nz
+M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
