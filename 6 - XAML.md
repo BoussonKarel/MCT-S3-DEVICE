@@ -232,8 +232,17 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ```
 *Uses requested size if provided or "default" size if not.*
 
-- To request expansion, use the "...AndExpand"
+- To request expansion, use the "...AndExpand" version of the layout options in the direction of the StackLayout's orientation.
+
+```xml
+<StackLayout Orientation="Vertical">
+	<Label ... VerticalOptions="StartAndExpand" />
+	<Label ... VerticalOptions="CenterAndExpand" />
+	<Label ... VerticalOptions="EndAndExpand" />
+	<Label ... VerticalOptions="FillAndExpand" />
+</StackLayout>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzQ3OTUyNyw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbLTE1OTA3MzI1MzgsODg4NTU1MTY1LC00Nz
+M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
