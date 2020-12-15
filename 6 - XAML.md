@@ -159,14 +159,20 @@ Default **HorizontalOptions** is **Fill**, which causes WidthRequest to be ignor
 </StackLayout>
 ```
 
-HorizontalOptions != Fill, so the size is based on it's text.
+HorizontalOptions != Fill and WidthRequest is not defined, so the size is based on it's text.
 ![](https://i.imgur.com/mvgt2mO.png)
 
 ---
-
+```xml
+<StackLayout>
+	<Label Text="Hello" HorizontalOptions="Center" WidthRequest="200" BackgroundColor="Silver" />
+</StackLayout>
+```
+HorizontalOptions != Fill and WidthRequest is defined, so the requested width is respected.
+![enter image description here](https://i.imgur.com/jrGLOTZ.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU3MDczMjEsLTExNjI5NDU3NjgsMT
+eyJoaXN0b3J5IjpbLTE2OTYxNTYzODcsLTExNjI5NDU3NjgsMT
 Y4MTU4ODA3NF19
 -->
