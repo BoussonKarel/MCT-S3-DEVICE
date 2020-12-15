@@ -64,7 +64,7 @@ In QuoteRepository:
 ```
 ```csharp
 	// GET a single quote
-	public static async Task<Quote> GetRandomQuote() {
+	public static async Task<Quote> GetRandomQuoteAsync() {
 		// URL from API documentation
 		string url = $"{_BASEURI}/quotes/random";
 
@@ -100,8 +100,31 @@ In QuoteRepository:
 ## Manipulate (PUT/POST/DELETE) data async
 In QuoteRepository:
 ### PUT an object to the API to update it
+```csharp
+// UPDATE a single quote
+	public static async Task UpdateQuoteAsync(Quote updat) {
+		// URL from API documentation
+		string url = $"{_BASEURI}/quotes/random";
+
+		// Create and use HttpClient
+		using (HttpClient client = GetHttpClient()) {
+			try {
+				// Ask for JSON data
+				string json = await client.GetStringAsync(url);
+
+				// Convert to a Quote object
+				Quote quote = JsonConvert.DeserializeObject<Quote>(json);
+				
+				return quote;
+			}
+			catch (Exception ex) {
+				throw ex; // ALWAYS add breakpoint here
+			}
+		}
+	}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjY4OTExLC01OTEwNDAxOTcsMjA5MD
-Y1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3NjQsMTM4MDMwMDY4
-NF19
+eyJoaXN0b3J5IjpbLTEwMDM5MDQ0NTgsMTM4MjY4OTExLC01OT
+EwNDAxOTcsMjA5MDY1MzU4MSwtNTI0MzkwMzg0LDIwNzc5NTU3
+NjQsMTM4MDMwMDY4NF19
 -->
