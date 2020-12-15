@@ -244,8 +244,28 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ```
 
 ### Expansion vs. views size
+- Enabling expansion can change the size of the view's layout rectangle, but doesn't change the size of the view unless it uses **FillAndExpand**
 ![enter image description here](https://i.imgur.com/8N4nczi.png)
+
+#### No expansion against orientation
+```xml
+<StackLayout Orientation="Vertical">
+	<Label ... HorizontalOptions="StartAndExpand" />
+	<Label ... HorizontalOptions="CenterAndExpand" />
+	<Label ... HorizontalOptions="EndAndExpand" />
+	<Label ... HorizontalOptions="FillAndExpand" />
+</StackLayout>
+```
+==
+```xml
+<StackLayout Orientation="Vertical">
+	<Label ... HorizontalOptions="Start" />
+	<Label ... HorizontalOptions="Center" />
+	<Label ... HorizontalOptions="End" />
+	<Label ... HorizontalOptions="Fill" />
+</StackLayout>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyMzQ2MTU4LDg4ODU1NTE2NSwtNDczOT
+eyJoaXN0b3J5IjpbNzY0NDYxNjE2LDg4ODU1NTE2NSwtNDczOT
 UzMTAxLC0xMTYyOTQ1NzY4LDE2ODE1ODgwNzRdfQ==
 -->
