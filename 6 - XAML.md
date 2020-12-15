@@ -22,8 +22,10 @@ Een View kan je ook apart maken en hergebruiken in andere pagina's.
 
 ### Describing a screen in XAML
 - XAML is used to construct object graphs, in this case a visual Page
+![enter image description here](https://i.imgur.com/7qFIa9b.png)
 
+![][htt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIyNzg4MzcsLTExNjI5NDU3NjgsMT
-Y4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbNTEyNDQzNDAsLTExNjI5NDU3NjgsMTY4MT
+U4ODA3NF19
 -->
