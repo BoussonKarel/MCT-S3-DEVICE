@@ -86,9 +86,16 @@ In QuoteRepository:
 	}
 ```
 
+- Use your own **model**
+- Browse through the documentation to find the correct **endpoints**
++ Create the repository functions:
+  + Use the **async** keyword
+  + Wrap the **return type** in a **Task** (void) or **Task\<T>** object
+- When calling these async functions
+- Deicde if its necessar
 
 ## Manipulate (PUT/POST/DELETE) data async
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDM5MDM4NCwyMDc3OTU1NzY0LDEzOD
-AzMDA2ODRdfQ==
+eyJoaXN0b3J5IjpbMTEyMTI5NDQzOSwtNTI0MzkwMzg0LDIwNz
+c5NTU3NjQsMTM4MDMwMDY4NF19
 -->
