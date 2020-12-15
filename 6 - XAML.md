@@ -266,8 +266,10 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 </StackLayout>
 ```
 
-##
+## Apply Attached Properties
+> An attached property is a property that is defined in once class but set on objects of other types.
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzk2MTkwMCw4ODg1NTUxNjUsLTQ3Mz
-k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
+eyJoaXN0b3J5IjpbMTY0NzI2MjMsODg4NTU1MTY1LC00NzM5NT
+MxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
 -->
