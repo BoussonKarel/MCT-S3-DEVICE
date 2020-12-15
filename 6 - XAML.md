@@ -190,10 +190,22 @@ Each view has a margin of 50 and they are additive so the gap here is 100.
 ## StackLayout
 - StackLayout arranges its children in a single column or a single row
 + You can add children to a StackLayout in XAML
-  + Child layout order is determined by the order they were added to the Children collection (applies to both codes and XAML)
+  + Layout order is determined by the order they were added to the Children collection (applies to both code and XAML)
 - StackLayout's **Spacing** separates the children (default: 6)
 + StackLayout's **Orientation** property lets you choose a vertical column or a horizontal row (default: vertical)
+
+### LayoutOptions against orientation
+- In the direction *opposite* of its orientation StackLayout uses the Start, Center, End and Fill layout options.
+```xml
+<!-- Vertical 
+<StackLayout Orientation="Vertical">
+	<Label ... HorizontalOptions="Start" />
+	<Label ... HorizontalOptions="Center" />
+	<Label ... HorizontalOptions="End" />
+	<Label ... HorizontalOptions="Fill" />
+</StackLayout>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEzMDA2MDIsODg4NTU1MTY1LC00Nz
-M5NTMxMDEsLTExNjI5NDU3NjgsMTY4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbMTk2NDIzNzIyNyw4ODg1NTUxNjUsLTQ3Mz
+k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
