@@ -348,8 +348,15 @@ Starts at 0 (row 0, column 0)
 Grid defines four attached properties used to position children
 | Attached property | Value |
 |--|--|
-| Column | An integer that represents the Col
+| Column | int; Column in which the item will appear |
+| ColumnSpan | int; Number of columns the item will span |
+| Row | int; Row in which the item will appear |
+| RowSpan | int; Number of rows the item will span |
+
+### Cell specification
+Apply the Row and Column attached properties to each child
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTE3NDUzNyw4ODg1NTUxNjUsLTQ3Mz
+eyJoaXN0b3J5IjpbLTE4Nzg0MjExNCw4ODg1NTUxNjUsLTQ3Mz
 k1MzEwMSwtMTE2Mjk0NTc2OCwxNjgxNTg4MDc0XX0=
 -->
