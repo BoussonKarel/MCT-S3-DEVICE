@@ -44,10 +44,20 @@ Een View kan je ook apart maken en hergebruiken in andere pagina's.
 
 - Name must confirm to C# naming conventions and be unique in the file
 
-```XAML
+```XML
 <Entry x:Name="PhoneNumber" Placeholder="Number" />
 ```
+```csharp
+public partial class MainPage : ContentPage {
+	private Entry PhoneNumber();
+	
+	private void InitializeComponent() {
+		this.LoadFromXaml(typeof(MainPage));
+		PhoneNumber = this.FindByName<Entry>("Phonenumber");
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMxMTE5NTYsLTExNjI5NDU3NjgsMT
-Y4MTU4ODA3NF19
+eyJoaXN0b3J5IjpbLTk0OTEzNzYwMSwtMTE2Mjk0NTc2OCwxNj
+gxNTg4MDc0XX0=
 -->
