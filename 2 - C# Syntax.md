@@ -200,8 +200,7 @@ Person p1 = new Person("Karel");
 ### Fields vs properties
 - **Fields**
 - Fields are normal variable members of a class.
-- Generally, you should private of protected
-- Enkel binnen die klasse kan je er iets mee doen.
+- Generally, you should declare them as private of protected
 ```csharp
 // field
 private string _name;
@@ -348,7 +347,7 @@ public class NonAlcoholicBeer : Beer {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTUxNzA5NSw2Mzg3MzEyNjUsLTY5Mz
+eyJoaXN0b3J5IjpbLTIyMzA5MTg5OCw2Mzg3MzEyNjUsLTY5Mz
 IxMjgxOSwtMTI4Mjc1MTY4LC05OTY5MjE2MDMsMjUwOTQ4NDA3
 LC0yMDA1ODQ0MTk2XX0=
 -->
