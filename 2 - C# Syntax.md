@@ -207,7 +207,9 @@ private string _name;
 private int _id;
 ```
 
-**Properties**
+- **Properties**
+- Actually special methods called *"accessors"*
+- They have two codes inside: **set** and **get**, called **property accessors**
 ```csharp
 // property with visible field
 public string Name {
@@ -347,7 +349,7 @@ public class NonAlcoholicBeer : Beer {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzA5MTg5OCw2Mzg3MzEyNjUsLTY5Mz
-IxMjgxOSwtMTI4Mjc1MTY4LC05OTY5MjE2MDMsMjUwOTQ4NDA3
-LC0yMDA1ODQ0MTk2XX0=
+eyJoaXN0b3J5IjpbLTEwNjg5NTA1MDEsNjM4NzMxMjY1LC02OT
+MyMTI4MTksLTEyODI3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQw
+NywtMjAwNTg0NDE5Nl19
 -->
