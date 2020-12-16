@@ -227,6 +227,8 @@ public string Name {
 public double Alcohol { get; set; }
 ```
 
+- value is a keyword which refers to the assigned value *(kind of like a parameter for the set method)*
+
 ### Property usage
 Properties to manage field access
 ```csharp
@@ -349,7 +351,7 @@ public class NonAlcoholicBeer : Beer {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg5NTA1MDEsNjM4NzMxMjY1LC02OT
-MyMTI4MTksLTEyODI3NTE2OCwtOTk2OTIxNjAzLDI1MDk0ODQw
-NywtMjAwNTg0NDE5Nl19
+eyJoaXN0b3J5IjpbLTIwMjY1ODgzMDIsLTEwNjg5NTA1MDEsNj
+M4NzMxMjY1LC02OTMyMTI4MTksLTEyODI3NTE2OCwtOTk2OTIx
+NjAzLDI1MDk0ODQwNywtMjAwNTg0NDE5Nl19
 -->
